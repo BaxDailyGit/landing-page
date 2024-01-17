@@ -1,0 +1,41 @@
+/* nav.css */
+
+nav {
+    display: flex; /* 내비게이션 아이템들을 가로로 나열 */
+    justify-content: space-between; /* 내비게이션 아이템들을 좌우로 분산 정렬 */
+    align-items: center; /* 아이템들을 세로로 가운데 정렬 */
+    padding: 10px; /* 내부 여백 설정 */
+}
+
+nav ul {
+    list-style: none; /* 목록 기호 제거 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* 메뉴 아이템들을 가로로 나열 */
+}
+
+nav li {
+    margin-right: 20px; /* 메뉴 아이템 간격 설정 */
+}
+
+nav a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: black; /* 링크 텍스트 색상 설정 */
+    font-weight: bold; /* 링크 텍스트 굵기 설정 */
+}
+
+nav a:hover {
+    color: #FFD700; /* 호버 시 색상 변경 */
+}
+
+.downloadButton {
+    background-color: #D97652; /* 버튼 배경 색상 설정 */
+    color: white; /* 버튼 텍스트 색상 설정 */
+    padding: 8px 15px; /* 버튼 내부 여백 설정 */
+    border: none; /* 버튼 테두리 제거 */
+    cursor: pointer;
+}
+
+.downloadButton:hover {
+    background-color: #D97600; /* 호버 시 배경 색상 변경 */
+}
