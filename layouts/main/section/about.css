@@ -1,0 +1,30 @@
+/* about.css */
+
+#about {
+    padding: 20px; /* 내부 여백 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 이미지와 텍스트를 감싸는 article 요소의 스타일 */
+#about article {
+    text-align: left; /* 왼쪽 정렬 */
+}
+
+/* 이미지 스타일 */
+#about img {
+    max-width: 100%; /* 이미지 최대 너비 설정 */
+}
+
+/* 텍스트 스타일 */
+#about h2{
+    color: #333; /* 텍스트 색상 지정 */
+}
+
+#about p {
+    color: #666; /* 텍스트 색상 지정 */
+}
+
