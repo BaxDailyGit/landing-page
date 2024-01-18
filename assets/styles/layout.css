@@ -18,10 +18,9 @@ main {
 
 }
 
-section {
+article {
     margin: 0 300px;
     padding: 20px;
-    text-align: center;
 }
 
 #welcome,
