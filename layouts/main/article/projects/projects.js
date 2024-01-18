@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // API 엔드포인트와 초기 페이지 및 이미지 수 설정
     let apiUrl = "https://picsum.photos/v2/list";
     let currentPage = 1;
-    let limit = 6;
+    let limit = 3;
 
     // 함수를 통해 API에서 이미지 가져오기
     function fetchImages() {
