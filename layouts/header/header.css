@@ -2,7 +2,6 @@
 
 header {
     background-color: #F2E9D8; /* 배경 색상 설정 */
-    padding: 10px; /* 내부 여백 설정 */
 }
 
 header img {
@@ -14,7 +13,6 @@ header img {
 
 #welcome {
     background-color: #F2E9D8; /* 변경된 배경색 지정 */
-    padding: 20px; /* 내부 여백 설정 */
     display: flex;
     justify-content: space-between;
     align-items: center;

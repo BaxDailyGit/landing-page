@@ -4,7 +4,7 @@
 }
 
 #projects h2 {
-    color: #333;
+    color: #D97652;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
@@ -16,18 +16,16 @@
     margin-bottom: 30px;
 }
 
+#projects p .highlight{
+    color: #D97652;
+}
+
 #projects .projects-img {
     display: flex;
     justify-content: space-around;
 }
 
-#projects img {
-    width: 378px;
-    height: 378px;
-    border-radius: 30px; /* 이미지 모서리를 둥글게 만들기 */
-    margin: 10px; /* 이미지 간격 설정 */
-    transition: transform 0.3s ease-in-out;
-}
+
 
 #projects img:hover {
     transform: scale(1.1); /* 호버 시 이미지 확대 */
@@ -37,24 +35,28 @@
     display: flex;
     flex-wrap: wrap; /* 이미지가 차례대로 나열되도록 수정 */
     justify-content: space-around;
-    margin: 10px; /* api-img 섹션과 기존 이미지 간의 간격 조절 */
 }
 
 #projects .api-img img {
-    width: 378px;
-    height: 378px;
+    width: 270px;
+    height: 270px;
     border-radius: 30px;
+    margin: 10px; /* 이미지 간격 설정 */
 }
 
 #projects .show-more-section p {
     font-size: 24px;
     line-height: 30px;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
 }
+
+
 
 #projects .show-more-section .show-more-btn {
     background-color: #D97652;
     font-size: 16px;
-    line-height: 19.09px;
+    line-height: 19px;
     text-align: center;
     color: #fff;
     width: 140px;
@@ -66,4 +68,9 @@
 
 #projects .show-more-section .show-more-btn:hover {
     background-color: #D97600; /* 마우스 호버 시 배경색 변경 */
+}
+
+#projects hr {
+    border: 1px solid #ddd;
+    margin: 80px 0 0 0;
 }
