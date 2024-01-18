@@ -33,6 +33,18 @@
     transform: scale(1.1); /* 호버 시 이미지 확대 */
 }
 
+#projects .api-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* api-img 섹션과 기존 이미지 간의 간격 조절 */
+}
+
+#projects .api-img img {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+}
+
 #projects .show-more-section p {
     font-size: 24px;
     line-height: 30px;

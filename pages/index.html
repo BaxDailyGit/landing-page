@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../layouts/header/header.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/about.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/projects.css">
+
 </head>
 <body>
 <!-- 포트폴리오 랜딩 페이지를 작성 -->
@@ -88,8 +89,8 @@
             <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
         </section>
 
-        <!--이미지 api-->
-        <section>
+        <!--api 이미지-->
+        <section class="api-img">
 
         </section>
 
@@ -103,10 +104,35 @@
     </article>
     <!-- map 아티클-->
     <!-- email 아티클-->
+
+    <ul class="image-list"></ul>
 </main>
 
 <!-- 푸터 태그 -->
 <footer>
 </footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // API 엔드포인트
+        const apiUrl = "https://picsum.photos/v2/list?page=1&limit=3";
+
+        // API에서 이미지 가져오기
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // 가져온 데이터를 이용하여 이미지 동적으로 추가
+                const apiImgSection = document.querySelector(".api-img");
+
+                data.forEach(item => {
+                    const img = document.createElement("img");
+                    img.src = item.download_url;
+                    img.alt = "Random Image";
+                    apiImgSection.appendChild(img);
+                });
+            })
+            .catch(error => console.error("Error fetching images:", error));
+    });
+</script>
 </body>
 </html>
