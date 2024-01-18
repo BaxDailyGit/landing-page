@@ -1,10 +1,13 @@
 /* layout.css */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/assets/fonts/Pretendard－M.ttf') format('truetype');
+}
 
 body {
     margin: 0;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 16px;
-    color: #333;
     line-height: 1.5;
 }
 
@@ -19,7 +22,7 @@ main {
 }
 
 article {
-    margin: 60px 300px 0 300px;
+    margin: 60px 320px 0 320px;
 }
 
 

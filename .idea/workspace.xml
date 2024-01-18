@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beed6264-3b53-40fe-81a3-aa3bea62ccdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/layouts/main/article/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Pretendard－M.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature",
-    "last_opened_file_path": "C:/Users/BaekSeungJin/IdeaProjects/landing-page/assets/images",
+    "last_opened_file_path": "C:/Users/BaekSeungJin/IdeaProjects/landing-page/assets/fonts",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\fonts" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\images" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\layouts\main\section" />
       <recent name="C:\Users\BaekSeungJin\Desktop\HTML_P\landing-page\assets\images" />
@@ -80,7 +81,7 @@
       <workItem from="1705451536014" duration="15480000" />
       <workItem from="1705481248020" duration="32000" />
       <workItem from="1705481324318" duration="1350000" />
-      <workItem from="1705537318601" duration="20293000" />
+      <workItem from="1705537318601" duration="26942000" />
     </task>
     <servers />
   </component>
