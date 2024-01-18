@@ -69,3 +69,8 @@
 #projects .show-more-section .show-more-btn:hover {
     background-color: #D97600; /* 마우스 호버 시 배경색 변경 */
 }
+
+#projects hr {
+    border: 1px solid #ddd;
+    margin: 80px 0;
+}
