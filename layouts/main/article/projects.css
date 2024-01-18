@@ -35,8 +35,9 @@
 
 #projects .api-img {
     display: flex;
+    flex-wrap: wrap; /* 이미지가 차례대로 나열되도록 수정 */
     justify-content: space-around;
-    margin-top: 20px; /* api-img 섹션과 기존 이미지 간의 간격 조절 */
+    margin: 10px; /* api-img 섹션과 기존 이미지 간의 간격 조절 */
 }
 
 #projects .api-img img {
