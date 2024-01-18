@@ -1,0 +1,56 @@
+#projects {
+    text-align: center;
+    padding: 20px;
+}
+
+#projects h2 {
+    color: #333;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+#projects p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#projects .projects-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects img {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px; /* 이미지 모서리를 둥글게 만들기 */
+    margin: 10px; /* 이미지 간격 설정 */
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects img:hover {
+    transform: scale(1.1); /* 호버 시 이미지 확대 */
+}
+
+#projects .show-more-section p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#projects .show-more-section .show-more-btn {
+    background-color: #D97652;
+    font-size: 16px;
+    line-height: 19.09px;
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#projects .show-more-section .show-more-btn:hover {
+    background-color: #D97600; /* 마우스 호버 시 배경색 변경 */
+}
