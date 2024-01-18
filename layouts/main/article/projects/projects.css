@@ -1,6 +1,5 @@
 #projects {
     text-align: center;
-    padding: 20px;
 }
 
 #projects h2 {
@@ -22,7 +21,7 @@
 
 
 #projects img:hover {
-    transform: scale(1.1); /* 호버 시 이미지 확대 */
+    transform: scale(1); /* 호버 시 이미지 확대 */
 }
 
 #projects .projects-api {
@@ -35,7 +34,7 @@
     width: 378px;
     height: 378px;
     border-radius: 30px;
-    margin: 36px 36px;
+    margin: 36px 0;
 }
 
 #projects .show-more-section p {
