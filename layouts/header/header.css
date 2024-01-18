@@ -27,22 +27,35 @@ header img {
 }
 
 #welcome h2 {
-    color: #333; /* 제목의 텍스트 색상 지정 */
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 40px;
 }
 
 #welcome p {
-    color: #666; /* 문단의 텍스트 색상 지정 */
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
 }
 
-#welcome #downloadButton {
-    background-color:  #D97652; /* 버튼 배경색 지정 */
-    color: #fff; /* 버튼 텍스트 색상 지정 */
-    padding: 10px 20px; /* 버튼 내부 여백 설정 */
-    border: none; /* 테두리 없애기 */
-    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능한 상태로 표시 */
+#welcome .downloadButton {
+    background-color: #D97652;
+    font-size: 16px;
+    line-height: 19.09px;
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
 }
 
-#welcome #downloadButton:hover {
+#welcome .downloadButton:hover {
     background-color: #D97600; /* 마우스 호버 시 배경색 변경 */
 }
 
+#welcome img {
+    width: 415px;
+    height: 766px;
+}
