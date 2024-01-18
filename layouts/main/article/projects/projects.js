@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(response => response.json())
             .then(data => {
                 // 가져온 데이터를 이용하여 이미지 동적으로 추가
-                const apiImgSection = document.querySelector(".api-img");
+                const apiImgSection = document.querySelector(".projects-api");
 
                 data.forEach(item => {
                     const img = document.createElement("img");

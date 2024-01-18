@@ -20,28 +20,22 @@
     color: #D97652;
 }
 
-#projects .projects-img {
-    display: flex;
-    justify-content: space-around;
-}
-
-
 
 #projects img:hover {
     transform: scale(1.1); /* 호버 시 이미지 확대 */
 }
 
-#projects .api-img {
+#projects .projects-api {
     display: flex;
     flex-wrap: wrap; /* 이미지가 차례대로 나열되도록 수정 */
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#projects .api-img img {
-    width: 270px;
-    height: 270px;
+#projects .projects-api img {
+    width: 378px;
+    height: 378px;
     border-radius: 30px;
-    margin: 10px; /* 이미지 간격 설정 */
+    margin: 36px 36px;
 }
 
 #projects .show-more-section p {
