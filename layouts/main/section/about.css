@@ -16,15 +16,18 @@
 
 /* 이미지 스타일 */
 #about img {
-    max-width: 100%; /* 이미지 최대 너비 설정 */
+    Width: 660px;
+    Height: 390px;
 }
 
 /* 텍스트 스타일 */
 #about h2{
-    color: #333; /* 텍스트 색상 지정 */
+    font-size: 36px;
+    line-height: 45px
 }
 
 #about p {
-    color: #666; /* 텍스트 색상 지정 */
+    font-size: 16px;
+    line-height: 20px
 }
 
