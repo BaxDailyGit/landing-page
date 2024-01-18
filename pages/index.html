@@ -15,140 +15,140 @@
 
 </head>
 <body>
-<!-- 포트폴리오 랜딩 페이지를 작성 -->
+    <!-- 포트폴리오 랜딩 페이지를 작성 -->
 
-<!-- 헤더 태그 -->
-<header>
-    <!-- 내비게이션 태그 -->
-    <nav>
-        <!-- 로고 이미지를 포함한 링크 -->
-        <a href="#">
-            <img src="../assets/images/Logo-fin.png" alt="Logo">
-        </a>
+    <!-- 헤더 태그 -->
+    <header>
+        <!-- 내비게이션 태그 -->
+        <nav>
+            <!-- 로고 이미지를 포함한 링크 -->
+            <a href="#">
+                <img src="../assets/images/Logo-fin.png" alt="Logo">
+            </a>
 
-        <!-- 메뉴 목록 -->
-        <ul>
-            <!-- Home 링크 -->
-            <li><a href="#">Home</a></li>
+            <!-- 메뉴 목록 -->
+            <ul>
+                <!-- Home 링크 -->
+                <li><a href="#">Home</a></li>
 
-            <!-- About 링크 -->
-            <li><a href="#">About</a></li>
+                <!-- About 링크 -->
+                <li><a href="#">About</a></li>
 
-            <!-- Support 링크 -->
-            <li><a href="#">Support</a></li>
+                <!-- Support 링크 -->
+                <li><a href="#">Support</a></li>
 
-            <!-- Download 버튼 -->
-            <button class="downloadButton">Download</button>
-        </ul>
-    </nav>
+                <!-- Download 버튼 -->
+                <button class="downloadButton">Download</button>
+            </ul>
+        </nav>
 
-    <!-- welcome 섹션 -->
-    <article id="welcome">
-        <section>
-            <!-- 로엠 -->
-            <h2>Lorem Ipsum is simply dummy text of the printing and</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown</p>
-            <button class="downloadButton">Download</button>
-        </section>
-        <!-- 이미지 태그 -->
-        <img src="../assets/images/img_cat_png.png" alt="큰 고양이">
-    </article>
+        <!-- welcome 섹션 -->
+        <article id="welcome">
+            <section>
+                <!-- 로엠 -->
+                <h2>Lorem Ipsum is simply dummy text of the printing and</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown</p>
+                <button class="downloadButton">Download</button>
+            </section>
+            <!-- 이미지 태그 -->
+            <img src="../assets/images/img_cat_png.png" alt="큰 고양이">
+        </article>
 
-</header>
+    </header>
 
-<!-- 메인 태그 -->
-<main>
-
-
-
-    <!-- about 아티클-->
-    <article id="about">
-        <!-- 이미지 태그 -->
-        <img src="../assets/images/img_4.png" alt="누운 고양이">
-        <section>
-            <!-- 로엠 -->
-            <h2>Lorem Ipsum is simply
-                dummy text of the printing and dummy text</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        </section>
-    </article>
-
-    <!-- projects 아티클-->
-    <article id="projects">
-        <h2>dummy text of the printing and dummy</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-
-        <!--내 프로젝트 이미지-->
-        <section class="projects-img">
-            <img src="../assets/images/img_1.png" alt="캣타워 고양이">
-            <img src="../assets/images/img_2.png" alt="벽보는 고양이">
-            <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
-        </section>
-
-        <!--api 이미지-->
-        <section class="api-img">
-
-        </section>
-
-        <!--더보기 버튼-->
-        <section class="show-more-section">
-            <p>Continue exploring HODU </p>
-            <button class="show-more-btn">Show more</button>
-        </section>
+    <!-- 메인 태그 -->
+    <main>
 
 
-    </article>
-    <!-- map 아티클-->
-    <!-- email 아티클-->
 
-    <ul class="image-list"></ul>
-</main>
+        <!-- about 아티클-->
+        <article id="about">
+            <!-- 이미지 태그 -->
+            <img src="../assets/images/img_4.png" alt="누운 고양이">
+            <section>
+                <!-- 로엠 -->
+                <h2>Lorem Ipsum is simply
+                    dummy text of the printing and dummy text</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </section>
+        </article>
 
-<!-- 푸터 태그 -->
-<footer>
-</footer>
+        <!-- projects 아티클-->
+        <article id="projects">
+            <h2>dummy text of the printing and dummy</h2>
+            <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry. <br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // API 엔드포인트와 초기 페이지 및 이미지 수 설정
-        let apiUrl = "https://picsum.photos/v2/list";
-        let currentPage = 1;
-        let limit = 6;
+            <!--내 프로젝트 이미지-->
+            <section class="projects-img">
+                <img src="../assets/images/img_1.png" alt="캣타워 고양이">
+                <img src="../assets/images/img_2.png" alt="벽보는 고양이">
+                <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
+            </section>
 
-        // 함수를 통해 API에서 이미지 가져오기
-        function fetchImages() {
-            fetch(`${apiUrl}?page=${currentPage}&limit=${limit}`)
-                .then(response => response.json())
-                .then(data => {
-                    // 가져온 데이터를 이용하여 이미지 동적으로 추가
-                    const apiImgSection = document.querySelector(".api-img");
+            <!--api 이미지-->
+            <section class="api-img">
 
-                    data.forEach(item => {
-                        const img = document.createElement("img");
-                        img.src = item.download_url;
-                        img.alt = "Random Image";
-                        apiImgSection.appendChild(img);
-                    });
-                })
-                .catch(error => console.error("Error fetching images:", error));
-        }
+            </section>
 
-        // 초기 로딩 시 이미지 가져오기
-        fetchImages();
+            <!--더보기 버튼-->
+            <section class="show-more-section">
+                <p>Continue exploring HODU </p>
+                <button class="show-more-btn">Show more</button>
+            </section>
 
-        // 더보기 버튼 클릭 시 다음 페이지의 이미지 가져오기
-        const showMoreBtn = document.querySelector(".show-more-btn");
-        showMoreBtn.addEventListener("click", function () {
-            // 다음 페이지 설정
-            currentPage++;
-            // 이미지 추가
+
+        </article>
+        <!-- map 아티클-->
+        <!-- email 아티클-->
+
+        <ul class="image-list"></ul>
+    </main>
+
+    <!-- 푸터 태그 -->
+    <footer>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // API 엔드포인트와 초기 페이지 및 이미지 수 설정
+            let apiUrl = "https://picsum.photos/v2/list";
+            let currentPage = 1;
+            let limit = 6;
+
+            // 함수를 통해 API에서 이미지 가져오기
+            function fetchImages() {
+                fetch(`${apiUrl}?page=${currentPage}&limit=${limit}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // 가져온 데이터를 이용하여 이미지 동적으로 추가
+                        const apiImgSection = document.querySelector(".api-img");
+
+                        data.forEach(item => {
+                            const img = document.createElement("img");
+                            img.src = item.download_url;
+                            img.alt = "Random Image";
+                            apiImgSection.appendChild(img);
+                        });
+                    })
+                    .catch(error => console.error("Error fetching images:", error));
+            }
+
+            // 초기 로딩 시 이미지 가져오기
             fetchImages();
+
+            // 더보기 버튼 클릭 시 다음 페이지의 이미지 가져오기
+            const showMoreBtn = document.querySelector(".show-more-btn");
+            showMoreBtn.addEventListener("click", function () {
+                // 다음 페이지 설정
+                currentPage++;
+                // 이미지 추가
+                fetchImages();
+            });
         });
-    });
-</script>
+    </script>
 </body>
 </html>

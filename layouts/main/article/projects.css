@@ -4,7 +4,7 @@
 }
 
 #projects h2 {
-    color: #333;
+    color: #D97652;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
@@ -14,6 +14,10 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 30px;
+}
+
+#projects p .highlight{
+    color: #D97652;
 }
 
 #projects .projects-img {
@@ -52,10 +56,12 @@
     margin: 30px 0 20px 0;
 }
 
+
+
 #projects .show-more-section .show-more-btn {
     background-color: #D97652;
     font-size: 16px;
-    line-height: 19.09px;
+    line-height: 19px;
     text-align: center;
     color: #fff;
     width: 140px;
