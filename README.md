@@ -1,4 +1,8 @@
-# landing-page
+<h2>
+  landing-page
+  <a href="https://hits.sh/github.com/BaxDailyGit/landing-page"><img alt="Hits" src="https://hits.sh/github.com/BaxDailyGit/landing-page.svg?view=today-total&style=for-the-badge&color=0d1117&labelColor=0d1117" align="right"/></a>
+</h2>
+
 포트폴리오 랜딩 페이지를 제작합니다.
 
 블로그에 활동 기록을 올려두었으니 참고바랍니다!
