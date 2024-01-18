@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beed6264-3b53-40fe-81a3-aa3bea62ccdb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/layouts/main/article/map/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/main/article/map/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/main/article/map/map.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -80,7 +80,7 @@
       <workItem from="1705451536014" duration="15480000" />
       <workItem from="1705481248020" duration="32000" />
       <workItem from="1705481324318" duration="1350000" />
-      <workItem from="1705537318601" duration="19861000" />
+      <workItem from="1705537318601" duration="20293000" />
     </task>
     <servers />
   </component>
