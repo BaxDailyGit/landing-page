@@ -31,6 +31,7 @@ footer button {
 footer button img {
     Width: 24px;
     Height: 24px;
+    margin: 3px;
 }
 
 footer button:nth-child(4) img {
