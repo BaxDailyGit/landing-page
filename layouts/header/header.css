@@ -16,16 +16,19 @@ header img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:  32px;
 }
 
-#welcome article {
+#welcome article{
     text-align: left; /* 왼쪽 정렬 */
+
 }
 
 #welcome h2 {
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 40px;
+    font-weight: 900;
 }
 
 #welcome p {
