@@ -1,0 +1,38 @@
+#email {
+    margin: 240px 0 0 0; /* 수정 해야함 */
+    position: relative;
+}
+
+
+#email section {
+    Width: 1280px;
+    Height: 200px;
+    background-color: #263140;
+    position: absolute;
+    transform: translate(0, -75%);
+    z-index: 2;
+    margin: 80px 320px;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+
+#email img {
+    width: 1920px;
+    height: 340px;
+    margin: 0;
+    z-index: 1;
+}
+
+#email h2{
+    color: #fff;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 850;
+    margin-bottom: 30px;
+}
+
+#email p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px
+}
