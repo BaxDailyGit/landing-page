@@ -1,13 +1,14 @@
 #map-article h2 {
     font-size: 36px;
     line-height: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 900;
 }
 
 #map-article p {
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 48px;
 }
 
 #map {
