@@ -66,6 +66,7 @@
     margin: 20px 0 20px 0;
     border: none;
     font-size: 16px;
+    outline: none;
 }
 
 #email .email-input-btn  button{
