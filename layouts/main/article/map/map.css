@@ -1,3 +1,4 @@
+/* map.css */
 #map-article h2 {
     font-size: 36px;
     line-height: 45px;
@@ -12,6 +13,6 @@
 }
 
 #map {
-    width: 900px;
-    height: 500px;
+    width: 1278px;
+    height: 520px;
 }
