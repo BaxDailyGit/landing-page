@@ -5,7 +5,7 @@
 }
 
 #projects h2 {
-    color: var(--main-color);
+    color: #1B5028;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
@@ -18,7 +18,7 @@
 }
 
 #projects p .highlight {
-    color: var(--main-color);
+    color: #1B5028;
 }
 
 #projects .projects-api {

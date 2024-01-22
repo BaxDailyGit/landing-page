@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let apiUrl = "https://picsum.photos/v2/list";
-    let currentPage = 2;
+    let currentPage = 4;
     let limit = 3;
 
     async function fetchImages() {
