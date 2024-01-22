@@ -29,3 +29,7 @@
     font-size: 21px;
     line-height: 33px;
 }
+
+#about p .highlight {
+    color: #3D7F4D;
+}

@@ -5,20 +5,20 @@
 }
 
 #projects h2 {
-    color: #1B5028;
+    color: #3D7F4D;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
 }
 
 #projects p {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 26px;
     margin-bottom: 30px;
 }
 
 #projects p .highlight {
-    color: #1B5028;
+    color: #3D7F4D;
 }
 
 #projects .projects-api {
