@@ -6,7 +6,7 @@
 .modal button,
 nav .downloadButton
  {
-    background-color: #D97652;
+    background-color: #408c3c;
     font-size: 16px;
     line-height: 19.09px;
     text-align: center;
@@ -23,5 +23,5 @@ nav .downloadButton
 #projects .show-more-section .show-more-btn:hover,
 #email .email-input-btn button:hover,
 nav .downloadButton:hover{
-    background-color: #D97600;
+    background-color: #b9da4a;
 }
