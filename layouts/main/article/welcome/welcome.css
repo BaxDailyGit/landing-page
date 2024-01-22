@@ -38,14 +38,46 @@
 #welcome h2 {
     font-size: 48px;
     line-height: 60px;
-    margin-bottom: 40px;
-    font-weight: 900;
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 
+
+@keyframes underlineAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.highlight-text {
+    font-size: 72px;
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-text::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 7px;
+    background-color: #ffd96e;
+    animation: underlineAnimation 1.8s ease-out forwards;
+}
+
+
+
+
+
+
 #welcome p {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 100px;
 }
 
 
@@ -63,6 +95,10 @@
 
 #welcome .man {
     margin: 275px 0 0 0;
+}
+
+#welcome .downloadButton {
+    margin: 0 0 50px 0;
 }
 
 

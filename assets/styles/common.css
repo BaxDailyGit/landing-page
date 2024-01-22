@@ -1,12 +1,12 @@
 /* common.css */
 
 @font-face {
-    font-family: 'Pretendard－M';
-    src: url('/assets/fonts/Pretendard－M.ttf') format('truetype');
+    font-family: 'BMDOHYEON';
+    src: url('/assets/fonts/BMDOHYEON_ttf.ttf') format('truetype');
 }
 
 :root {
-    --font-family: 'Pretendard－M', sans-serif;
+    --font-family: 'BMDOHYEON', sans-serif;
     --base-font-size: 16px;
     --line-height: 1.5;
     --main-color: #D97652;

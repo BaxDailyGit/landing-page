@@ -28,6 +28,11 @@ footer button {
     margin-left: 20px;
 }
 
+footer button:hover {
+    background-color: #b9da4a;
+}
+
+
 footer button img {
     width: 24px;
     height: 24px;

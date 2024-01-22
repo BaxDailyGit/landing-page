@@ -16,12 +16,10 @@
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/map/map.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/email/email.css">
     <link rel="stylesheet" type="text/css" href="../layouts/footer/footer.css">
-    <link rel="stylesheet" type="text/css" href="../components/button.css">
+    <link rel="stylesheet" type="text/css" href="../components/button/button.css">
     <link rel="stylesheet" type="text/css" href="../components/modal/modal.css">
     <link rel="stylesheet" type="text/css" href="../components/scroll-top/scroll-top.css">
-    <style>
 
-    </style>
 </head>
 <body>
 
@@ -41,14 +39,14 @@
             <!-- Home 링크 -->
             <li><a href="#">Home</a></li>
 
-            <!-- About 링크 -->
-            <li><a href="#">About</a></li>
+            <!-- Blog 링크 -->
+            <li><a href="https://baxdailygit.github.io" target="_blank">Blog</a></li>
 
-            <!-- Support 링크 -->
-            <li><a href="#">Support</a></li>
+            <!-- GitHub 링크 -->
+            <li><a href="https://github.com/BaxDailyGit" target="_blank">GitHub</a></li>
 
-            <!-- Download 버튼 -->
-            <button class="downloadButton">Download</button>
+            <!-- Resume 버튼 -->
+            <button class="downloadButton" >Resume</button>
         </ul>
     </nav>
 
@@ -66,13 +64,11 @@
     <article id="welcome">
     <section>
         <!-- 로엠 -->
-        <h2>백승진입니다.<br>
-            </h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and<br>
-            typesetting industry.<br>
-            Lorem Ipsum has been the industry's standard dummy text<br>
-            ever since the 1500s, when an unknown</p>
-        <button class="downloadButton">Download</button>
+        <h2><span class="highlight-text">백승진</span>입니다.</h2>
+        <p>백엔드 개발자가 되기 위해 공부하고 있습니다.<br>
+            기술에 대한 탐구와 건강한 라이프스타일을 추구합니다.<br>
+            사색하고 기록하는것을 좋아합니다.</p>
+        <button class="downloadButton">Resume</button>
     </section>
     <!-- 이미지 태그 -->
         <div class="sprout-man">
@@ -90,42 +86,49 @@
         <img src="../assets/images/IMG_1495.JPG" alt="누운 고양이">
         <section>
             <!-- 로엠 -->
-            <h2>Lorem Ipsum is simply<br>
-                dummy text of the printing and dummy text</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <h2>안녕하세요.</h2>
+            <p> 물리학, 소프트웨어학을 전공하였습니다.<br>
+                보충역으로 it산업기능요원을 희망합니다.<br>
+                <span class="highlight">백엔드 개발자</span>가 되기 위해 공부하고 있습니다.<br>
+                항상 배우고 발전하는 개발자가 되고 싶습니다.<br>
+            </p>
         </section>
     </article>
 
     <!-- projects 아티클-->
     <article id="projects">
-        <h2>dummy text of the printing and dummy</h2>
-        <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry. <br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+        <h2>projects</h2>
+        <p>이제까지 진행했던 프로젝트가 최신순으로 정렬되어있습니다. <br>
+            프로젝트 진행을 통해 <span class="highlight">새로운 기술과 문제 해결 능력, 협업 능력</span>을 배우고 조금씩 성장하는 중입니다.</p>
 
         <!--내 프로젝트 이미지-->
         <section class="projects-api">
             <div class="project-item">
-                <img src="../assets/images/img_1.png" alt="포트폴리오 랜딩 페이지">
+                <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
+                <p> 포트폴리오<br>
+                    랜딩 페이지<br>
+                    🌱</p>
                 <button class="move-btn">Go to gitbub</button>
             </div>
             <div class="project-item">
-                <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티">
-
+                <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티 이미지">
                 <p>주차 정보<br>
                     제공 커뮤니티<br>
                     🚗</p>
                 <button class="move-btn">Go to gitbub</button>
-
             </div>
             <div class="project-item">
-                <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
+                <img src="../assets/images/gasguard.png" alt="가스 가드 이미지">
+                <p>가스 누출<br>
+                    탐지 시스템<br>
+                    🔥</p>
                 <button class="move-btn">Go to gitbub</button>
             </div>
         </section>
 
         <!--더보기 버튼-->
         <section class="show-more-section">
-            <p>Continue exploring HODU </p>
+            <p>Continue Viewing More Projects </p>
             <button class="show-more-btn">Show more</button>
         </section>
         <hr>
@@ -133,33 +136,34 @@
 
     <!-- map 아티클-->
     <article id="map-article">
-        <h2>Where you’ll be</h2>
-        <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+        <h2>Location</h2>
+        <p>Yeongtong-gu, Suwon-si, Gyeonggi-do, Republic of Korea</p>
         <div id="map"></div>
     </article>
 
-    <!-- email 아티클-->
+    <!-- Email 아티클 -->
     <article id="email">
         <!-- 이미지 태그 -->
         <section>
             <div class="email-text">
-                <h2>Subscribe to our Blog post</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-                    Lorem Ipsum has been the industry's standard dummy text  </p>
+                <h2>메일을 보내주세요.</h2>
+                <p>더 많은 정보를 얻거나 협업을 제안하고 싶으실 때 언제든지 메일을 보내주세요.<br>
+                    메일로 주신 모든 내용에 성심성의껏 답변드리겠습니다.</p>
             </div>
 
             <div class="email-input-btn">
-                <label>
+                <label for="email-input">
                     <img src="../assets/images/mail.png" alt="이메일 이미지">
-                    <input type="text" placeholder="Enter your e-mail address">
+                    <input id="email-input" type="text" placeholder="수신자: qortmdwls275@naver.com" readonly>
                 </label>
                 <button class="email-btn" onclick="openModal()">Subscribe</button>
             </div>
         </section>
 
-        <img src="../assets/images/IMG_1503.JPG" alt="숲 이미지">
-
+        <img src="../assets/images/스위스호수마을_1.png" alt="스위스호수마을 이미지">
     </article>
+
+
 
 </main>
 
@@ -170,7 +174,7 @@
         <img src="../assets/images/004.png" alt="Logo">
     </a>
     <section id="link-img">
-        <button><a href="#"><img src="../assets/images/blog.png" alt="블로그 아이콘"></a></button>
+        <button><a href="https://baxdailygit.github.io/" target="_blank"><img src="../assets/images/blog.png" alt="블로그 아이콘"></a></button>
         <button><a href="#"><img src="../assets/images/instagram.png" alt="인스타그램 아이콘"></a></button>
         <button><a href="#"><img src="../assets/images/facebook.png" alt="페이스북 아이콘"></a></button>
         <button><a href="#"><img src="../assets/images/youtube.png" alt="유튜브 아이콘"></a></button>
@@ -181,9 +185,9 @@
 <div class="modal" id="myModal">
     <div class="modal-content">
         <img class="modal-background-img" src="../assets/images/thankyou모달.png" alt="모달 배경 이미지">
-        <h3>Thank you!</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-        <button onclick="closeModal()">OK! I Love HODU</button>
+        <h3>감사합니다!</h3>
+        <p>메일로 주신 모든 내용에 성심성의껏 답변드리겠습니다.</p>
+        <button onclick="closeModal()">Ok! See you later!</button>
     </div>
 </div>
 
@@ -195,7 +199,6 @@
 
 
 
-
 <!-- Scripts -->
 <script src="../layouts/main/article/projects/projects.js"></script>
 <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=281cea342bc00edcc5d817c78530ee0d"></script>
@@ -203,5 +206,7 @@
 <script src="../layouts/main/article/email/email.js"></script>
 <script src="../components/modal/modal.js"></script>
 <script src="../components/scroll-top/scroll-top.js"></script>
+<script src="../components/button/button.js"></script>
+
 </body>
 </html>
