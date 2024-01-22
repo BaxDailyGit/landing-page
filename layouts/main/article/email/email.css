@@ -17,9 +17,10 @@
 }
 
 #email img {
-    width: 1920px;
+    width: 1903px;
     height: 340px;
     margin: 0;
+    border-radius: 0;
 }
 
 #email .email-text {
