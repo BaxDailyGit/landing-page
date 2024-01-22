@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beed6264-3b53-40fe-81a3-aa3bea62ccdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/scroll-top-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/scroll-top/scroll-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/scroll-top/scroll-top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/scroll-top/scroll-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/scroll-top/scroll-top.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,11 +62,11 @@
       <recent name="C:\Users\BaekSeungJin\Desktop\HTML_P\landing-page\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\scripts" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\layouts\main\article\welcome" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\layouts\main\article\projects" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\layouts\main\article\about" />
       <recent name="C:\Users\BaekSeungJin\Desktop\HTML_P\landing-page\assets\styles" />
-      <recent name="C:\Users\BaekSeungJin\Desktop\HTML_P\landing-page\layouts\main\section" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +84,7 @@
       <workItem from="1705537318601" duration="27054000" />
       <workItem from="1705623868703" duration="29184000" />
       <workItem from="1705832382738" duration="3854000" />
-      <workItem from="1705836349959" duration="10982000" />
+      <workItem from="1705836349959" duration="14749000" />
     </task>
     <servers />
   </component>
