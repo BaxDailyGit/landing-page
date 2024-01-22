@@ -1,10 +1,11 @@
+/* projects.css */
 #projects {
     text-align: center;
-    margin-top:  120px;
+    margin-top: 120px;
 }
 
 #projects h2 {
-    color: #D97652;
+    color: #1B5028;
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
@@ -16,52 +17,90 @@
     margin-bottom: 30px;
 }
 
-#projects p .highlight{
-    color: #D97652;
-}
-
-
-#projects img:hover {
-    transform: scale(1); /* 호버 시 이미지 확대 */
+#projects p .highlight {
+    color: #1B5028;
 }
 
 #projects .projects-api {
     display: flex;
-    flex-wrap: wrap; /* 이미지가 차례대로 나열되도록 수정 */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #projects .projects-api img {
     width: 378px;
     height: 378px;
-    border-radius: 30px;
     margin: 36px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+#projects .project-item {
+    position: relative;
+}
+
+#projects .project-item p{
+    position: absolute;
+    font-size: 30px;
+    line-height: 35px;
+    top: 20%;
+    left: 22%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0;
+    border: 2px solid #ddd;
+}
+
+#projects .projects-api img:hover{
+    opacity: 0.7;
+}
+
+#projects .move-btn {
+    font-size: 24px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: white;
+    border: 2px solid #ddd;
+    padding: 15px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#projects .project-item:hover .move-btn,
+#projects .project-item:hover p{
+    opacity: 0.7;
+    transition: opacity 0.5s
+}
+
+#projects .project-item .move-btn:hover{
+    opacity: 1;
+    background-color: #408c3c;
+    color: white;
+}
+
+
+
+#projects .project-item .move-btn:hover{
+    opacity: 1;
+    background-color: #408c3c;
+    color: white;
+}
+
+
+#projects .project-item:hover img {
+    opacity: 0.7;
+}
+
 
 #projects .show-more-section p {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
     margin: 30px 0 20px 0;
-}
-
-
-
-#projects .show-more-section .show-more-btn {
-    background-color: #D97652;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #fff;
-    width: 140px;
-    height: 50px;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-#projects .show-more-section .show-more-btn:hover {
-    background-color: #D97600; /* 마우스 호버 시 배경색 변경 */
 }
 
 #projects hr {

@@ -1,4 +1,4 @@
-/* 푸터 스타일링 */
+/* footer.css */
 footer {
     margin: 45px 320px;
     display: flex;
@@ -7,11 +7,11 @@ footer {
 }
 
 footer img {
-    Width: 226px;
-    Height: 70px;
+    width: 226px;
+    height: 70px;
 }
 
-footer #link-img{
+footer #link-img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,21 +19,21 @@ footer #link-img{
 }
 
 footer button {
-    background-color: #F29D52;
-    Width: 42px;
-    Height: 42px;
+    background-color: #408c3c;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     border: none;
     outline: none;
     margin-left: 20px;
-
 }
+
 footer button img {
-    Width: 24px;
-    Height: 24px;
+    width: 24px;
+    height: 24px;
+    margin: 3px;
 }
 
 footer button:nth-child(4) img {
     height: 18px;
 }
-

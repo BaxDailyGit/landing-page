@@ -1,163 +1,207 @@
-<!-- HTML 파일 수정 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Hodu</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../assets/styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="../assets/styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/common.css">
     <link rel="stylesheet" type="text/css" href="../layouts/header/nav/nav.css">
     <link rel="stylesheet" type="text/css" href="../layouts/header/header.css">
+    <link rel="stylesheet" type="text/css" href="../layouts/main/article/welcome/welcome.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/about/about.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/projects/projects.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/map/map.css">
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/email/email.css">
     <link rel="stylesheet" type="text/css" href="../layouts/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="../components/button.css">
+    <link rel="stylesheet" type="text/css" href="../components/modal/modal.css">
+    <link rel="stylesheet" type="text/css" href="../components/scroll-top/scroll-top.css">
+    <style>
+
+    </style>
 </head>
 <body>
-    <!-- 포트폴리오 랜딩 페이지를 작성 -->
 
-    <!-- 헤더 태그 -->
-    <header>
-        <!-- 내비게이션 태그 -->
-        <nav>
-            <!-- 로고 이미지를 포함한 링크 -->
-            <a href="#">
-                <img src="../assets/images/Logo-fin.png" alt="Logo">
-            </a>
+<!-- 포트폴리오 랜딩 페이지를 작성 -->
 
-            <!-- 메뉴 목록 -->
-            <ul>
-                <!-- Home 링크 -->
-                <li><a href="#">Home</a></li>
-
-                <!-- About 링크 -->
-                <li><a href="#">About</a></li>
-
-                <!-- Support 링크 -->
-                <li><a href="#">Support</a></li>
-
-                <!-- Download 버튼 -->
-                <button class="downloadButton">Download</button>
-            </ul>
-        </nav>
-
-        <!-- welcome 섹션 -->
-        <article id="welcome">
-            <section>
-                <!-- 로엠 -->
-                <h2>Lorem Ipsum is simply<br>
-                    dummy text of the printing and</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and<br>
-                    typesetting industry.<br>
-                    Lorem Ipsum has been the industry's standard dummy text<br>
-                    ever since the 1500s, when an unknown</p>
-                <button class="downloadButton">Download</button>
-            </section>
-            <!-- 이미지 태그 -->
-            <img src="../assets/images/img_cat_png.png" alt="큰 고양이">
-        </article>
-
-    </header>
-
-    <!-- 메인 태그 -->
-    <main>
-
-
-
-        <!-- about 아티클-->
-        <article id="about">
-            <!-- 이미지 태그 -->
-            <img src="../assets/images/img_4.png" alt="누운 고양이">
-            <section>
-                <!-- 로엠 -->
-                <h2>Lorem Ipsum is simply<br>
-                    dummy text of the printing and dummy text</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-            </section>
-        </article>
-
-
-
-        <!-- projects 아티클-->
-        <article id="projects">
-            <h2>dummy text of the printing and dummy</h2>
-            <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry. <br>
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
-
-            <!--내 프로젝트 이미지-->
-            <section class="projects-api">
-                <img src="../assets/images/img_1.png" alt="캣타워 고양이">
-                <img src="../assets/images/img_2.png" alt="벽보는 고양이">
-                <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
-            </section>
-
-            <!--더보기 버튼-->
-            <section class="show-more-section">
-                <p>Continue exploring HODU </p>
-                <button class="show-more-btn">Show more</button>
-            </section>
-            <hr>
-        </article>
-
-
-
-
-        <!-- map 아티클-->
-        <article id="map-article">
-            <h2>Where you’ll be</h2>
-            <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
-            <div id="map"></div>
-        </article>
-
-
-
-        <!-- email 아티클-->
-        <article id="email">
-            <!-- 이미지 태그 -->
-            <section>
-                <div class="email-text">
-                    <h2>Subscribe to our Blog post</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-                        Lorem Ipsum has been the industry's standard dummy text  </p>
-                </div>
-
-                <div class="email-input-btn">
-                    <label>
-                        <img src="../assets/images/mail.png" alt="이메일 이미지">
-                        <input type="text" placeholder="Enter your e-mail address">
-                    </label>
-                    <button class="email-btn">Subscribe</button>
-                </div>
-            </section>
-
-            <img src="../assets/images/img_5.png" alt="위 보는 고양이">
-        </article>
-
-
-    </main>
-
-    <!-- 푸터 태그 -->
-    <footer>
+<!-- 헤더 태그 -->
+<header>
+    <!-- 내비게이션 태그 -->
+    <nav>
         <!-- 로고 이미지를 포함한 링크 -->
         <a href="#">
-            <img src="../assets/images/Logo-fin.png" alt="Logo">
+            <img src="../assets/images/004.png" alt="Logo">
         </a>
-        <section id="link-img">
-            <button><img src="../assets/images/blog.png" alt="블로그 아이콘"></button>
-            <button><img src="../assets/images/instagram.png" alt="인스타그램 아이콘"></button>
-            <button><img src="../assets/images/facebook.png" alt="페이스북 아이콘"></button>
-            <button><img src="../assets/images/youtube.png" alt="유튜브 아이콘"></button>
+
+        <!-- 메뉴 목록 -->
+        <ul>
+            <!-- Home 링크 -->
+            <li><a href="#">Home</a></li>
+
+            <!-- About 링크 -->
+            <li><a href="#">About</a></li>
+
+            <!-- Support 링크 -->
+            <li><a href="#">Support</a></li>
+
+            <!-- Download 버튼 -->
+            <button class="downloadButton">Download</button>
+        </ul>
+    </nav>
+
+
+</header>
+
+
+
+
+<!-- 메인 태그 -->
+<main>
+
+
+    <!-- welcome 섹션 -->
+    <article id="welcome">
+    <section>
+        <!-- 로엠 -->
+        <h2>백승진입니다.<br>
+            </h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and<br>
+            typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text<br>
+            ever since the 1500s, when an unknown</p>
+        <button class="downloadButton">Download</button>
+    </section>
+    <!-- 이미지 태그 -->
+        <div class="sprout-man">
+            <img class="sprout" src="../assets/images/새싹.png" alt="큰 고양이">
+            <img class="man" src="../assets/images/물주는사람.png" alt="큰 고양이">
+        </div>
+
+</article>
+
+
+
+    <!-- about 아티클-->
+    <article id="about">
+        <!-- 이미지 태그 -->
+        <img src="../assets/images/IMG_1495.JPG" alt="누운 고양이">
+        <section>
+            <!-- 로엠 -->
+            <h2>Lorem Ipsum is simply<br>
+                dummy text of the printing and dummy text</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </section>
+    </article>
+
+    <!-- projects 아티클-->
+    <article id="projects">
+        <h2>dummy text of the printing and dummy</h2>
+        <p>Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry. <br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+
+        <!--내 프로젝트 이미지-->
+        <section class="projects-api">
+            <div class="project-item">
+                <img src="../assets/images/img_1.png" alt="포트폴리오 랜딩 페이지">
+                <button class="move-btn">Go to gitbub</button>
+            </div>
+            <div class="project-item">
+                <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티">
+
+                <p>주차 정보<br>
+                    제공 커뮤니티<br>
+                    🚗</p>
+                <button class="move-btn">Go to gitbub</button>
+
+            </div>
+            <div class="project-item">
+                <img src="../assets/images/img_3.png" alt="이불 덮은 고양이">
+                <button class="move-btn">Go to gitbub</button>
+            </div>
         </section>
 
-    </footer>
+        <!--더보기 버튼-->
+        <section class="show-more-section">
+            <p>Continue exploring HODU </p>
+            <button class="show-more-btn">Show more</button>
+        </section>
+        <hr>
+    </article>
+
+    <!-- map 아티클-->
+    <article id="map-article">
+        <h2>Where you’ll be</h2>
+        <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+        <div id="map"></div>
+    </article>
+
+    <!-- email 아티클-->
+    <article id="email">
+        <!-- 이미지 태그 -->
+        <section>
+            <div class="email-text">
+                <h2>Subscribe to our Blog post</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text  </p>
+            </div>
+
+            <div class="email-input-btn">
+                <label>
+                    <img src="../assets/images/mail.png" alt="이메일 이미지">
+                    <input type="text" placeholder="Enter your e-mail address">
+                </label>
+                <button class="email-btn" onclick="openModal()">Subscribe</button>
+            </div>
+        </section>
+
+        <img src="../assets/images/IMG_1503.JPG" alt="숲 이미지">
+
+    </article>
+
+</main>
+
+<!-- 푸터 태그 -->
+<footer>
+    <!-- 로고 이미지를 포함한 링크 -->
+    <a href="#">
+        <img src="../assets/images/004.png" alt="Logo">
+    </a>
+    <section id="link-img">
+        <button><a href="#"><img src="../assets/images/blog.png" alt="블로그 아이콘"></a></button>
+        <button><a href="#"><img src="../assets/images/instagram.png" alt="인스타그램 아이콘"></a></button>
+        <button><a href="#"><img src="../assets/images/facebook.png" alt="페이스북 아이콘"></a></button>
+        <button><a href="#"><img src="../assets/images/youtube.png" alt="유튜브 아이콘"></a></button>
+    </section>
+</footer>
 
 
-    <script src="../layouts/main/article/projects/projects.js"></script>
-    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=281cea342bc00edcc5d817c78530ee0d"></script>
-    <script src="../layouts/main/article/map/map.js"></script>
-    <script src="../layouts/main/article/email/email.js"></script>
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <img class="modal-background-img" src="../assets/images/thankyou모달.png" alt="모달 배경 이미지">
+        <h3>Thank you!</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+        <button onclick="closeModal()">OK! I Love HODU</button>
+    </div>
+</div>
+
+
+
+<button id="scrollToTopBtn">
+    <img src="../assets/images/keyboard_arrow_up.png" alt="Scroll to Top">
+</button>
+
+
+
+
+<!-- Scripts -->
+<script src="../layouts/main/article/projects/projects.js"></script>
+<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=281cea342bc00edcc5d817c78530ee0d"></script>
+<script src="../layouts/main/article/map/map.js"></script>
+<script src="../layouts/main/article/email/email.js"></script>
+<script src="../components/modal/modal.js"></script>
+<script src="../components/scroll-top/scroll-top.js"></script>
 </body>
 </html>

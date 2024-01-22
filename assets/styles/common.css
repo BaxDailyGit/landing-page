@@ -1,0 +1,27 @@
+/* common.css */
+
+@font-face {
+    font-family: 'Pretendard－M';
+    src: url('/assets/fonts/Pretendard－M.ttf') format('truetype');
+}
+
+:root {
+    --font-family: 'Pretendard－M', sans-serif;
+    --base-font-size: 16px;
+    --line-height: 1.5;
+    --main-color: #D97652;
+    --secondary-color: #F29D52;
+    --background-color: #F2E9D8;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--base-font-size);
+    line-height: var(--line-height);
+}
+
+
+article {
+    margin: 0 320px;
+}
+

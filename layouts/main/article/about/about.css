@@ -1,29 +1,24 @@
 /* about.css */
-
 #about {
-    text-align: center; /* 텍스트 가운데 정렬 */
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:  80px;
+    margin-top: 80px;
 }
 
-
-/* 이미지와 텍스트를 감싸는 section 요소의 스타일 */
 #about section {
-    text-align: left; /* 왼쪽 정렬 */
+    text-align: left;
 }
 
-/* 이미지 스타일 */
 #about img {
-    Width: 660px;
-    Height: 390px;
-    border-radius: 30px;
+    width: 660px;
+    height: 390px;
     margin: 0 110px 0 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* 텍스트 스타일 */
-#about h2{
+#about h2 {
     font-size: 36px;
     line-height: 45px;
     font-weight: 850;
@@ -32,6 +27,5 @@
 
 #about p {
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
 }
-

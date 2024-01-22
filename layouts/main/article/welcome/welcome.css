@@ -1,0 +1,74 @@
+/* welcome.css */
+#welcome {
+    /*background-color: var(--background-color);*/
+    background: url('/assets/images/배경.png') center center no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 320px;
+    margin: 0;
+    height: 800px;
+}
+
+#welcome article {
+    text-align: left;
+    ;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to h2 and p tags */
+#welcome h2,
+#welcome p,
+#welcome .downloadButton,
+.sprout-man,
+.man
+{
+    animation: fadeInUp 1s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+#welcome h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+#welcome .sprout-man {
+    display: flex;
+}
+
+
+#welcome  .sprout {
+    width: 100%;
+    height: 100%;
+    margin: 615px 0 0 0;
+}
+
+#welcome .man {
+    margin: 275px 0 0 0;
+}
+
+
+#welcome img,
+#about img,
+#projects .projects-api img,
+#email img {
+    border-radius: 30px;
+}

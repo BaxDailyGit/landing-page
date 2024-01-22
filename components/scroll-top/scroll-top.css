@@ -1,0 +1,27 @@
+/* scroll-top.css */
+
+#scrollToTopBtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 18px;
+    right: 24px;
+    cursor: pointer;
+    display: none;
+    border-radius: 50%;
+    border: 2px solid #C4C4C4;
+    padding: 0;
+}
+
+
+#scrollToTopBtn img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    transition: filter 0.3s;
+}
+
+#scrollToTopBtn:hover img {
+    filter: grayscale(100%) brightness(80%);
+}
