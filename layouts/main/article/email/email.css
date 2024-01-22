@@ -10,7 +10,6 @@
     background-color: #263140;
     position: absolute;
     transform: translate(0, -90%);
-    z-index: 2;
     margin: 80px 320px;
     border-radius: 30px;
     display: flex;
@@ -21,7 +20,6 @@
     width: 1920px;
     height: 340px;
     margin: 0;
-    z-index: 1;
 }
 
 #email .email-text {

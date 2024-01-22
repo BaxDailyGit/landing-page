@@ -17,6 +17,11 @@
     <link rel="stylesheet" type="text/css" href="../layouts/main/article/email/email.css">
     <link rel="stylesheet" type="text/css" href="../layouts/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="../components/button.css">
+    <link rel="stylesheet" type="text/css" href="../components/modal/modal.css">
+    <style>
+
+
+    </style>
 </head>
 <body>
 <!-- 포트폴리오 랜딩 페이지를 작성 -->
@@ -129,12 +134,27 @@
                     <img src="../assets/images/mail.png" alt="이메일 이미지">
                     <input type="text" placeholder="Enter your e-mail address">
                 </label>
-                <button class="email-btn">Subscribe</button>
+                <button class="email-btn" onclick="openModal()">Subscribe</button>
             </div>
         </section>
 
         <img src="../assets/images/img_5.png" alt="위 보는 고양이">
     </article>
+
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <img class="modal-background-img" src="../assets/images/무제-1 1.png" alt="모달 배경 이미지">
+            <img class="modal-cat-img" src="../assets/images/cat 1.png" alt="고양이 얼굴 이미지">
+            <h3>Thank you!</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <button onclick="closeModal()">OK! I Love HODU</button>
+        </div>
+    </div>
+
+
+
+
 </main>
 
 <!-- 푸터 태그 -->
@@ -156,5 +176,6 @@
 <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=281cea342bc00edcc5d817c78530ee0d"></script>
 <script src="../layouts/main/article/map/map.js"></script>
 <script src="../layouts/main/article/email/email.js"></script>
+<script src="../components/modal/modal.js"></script>
 </body>
 </html>

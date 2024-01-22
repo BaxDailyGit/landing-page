@@ -3,7 +3,9 @@
 #welcome .downloadButton,
 #projects .show-more-section .show-more-btn,
 #email .email-input-btn button,
-nav .downloadButton {
+.modal button,
+nav .downloadButton
+ {
     background-color: #D97652;
     font-size: 16px;
     line-height: 19.09px;
@@ -14,6 +16,7 @@ nav .downloadButton {
     border: none;
     border-radius: 40px;
     cursor: pointer;
+    padding: 0;
 }
 
 #welcome .downloadButton:hover,

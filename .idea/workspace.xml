@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beed6264-3b53-40fe-81a3-aa3bea62ccdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/main/article/welcome/welcome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cat 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/무제-1 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modal/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modal/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Pretendard－L.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Pretendard－L.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Pretendard－M.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Pretendard－M.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Pretendard－R.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Pretendard－R.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/header/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/header/nav/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/main/article/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/main/article/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/main/article/email/email.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/main/article/email/email.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/main/article/map/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/main/article/map/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/main/article/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/main/article/projects/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "feature",
-    "last_opened_file_path": "C:/Users/BaekSeungJin/IdeaProjects/landing-page/assets/fonts",
+    "last_opened_file_path": "C:/Users/BaekSeungJin/IdeaProjects/landing-page/assets/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,8 +61,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\fonts" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\images" />
+      <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\assets\fonts" />
       <recent name="C:\Users\BaekSeungJin\IdeaProjects\landing-page\layouts\main\section" />
       <recent name="C:\Users\BaekSeungJin\Desktop\HTML_P\landing-page\assets\images" />
     </key>
@@ -96,7 +88,8 @@
       <workItem from="1705481324318" duration="1350000" />
       <workItem from="1705537318601" duration="27054000" />
       <workItem from="1705623868703" duration="29184000" />
-      <workItem from="1705832382738" duration="3694000" />
+      <workItem from="1705832382738" duration="3854000" />
+      <workItem from="1705836349959" duration="9602000" />
     </task>
     <servers />
   </component>
