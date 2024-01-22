@@ -36,6 +36,9 @@
 
 #projects .project-item {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #projects .project-item p{
@@ -43,10 +46,9 @@
     font-size: 30px;
     line-height: 35px;
     top: 20%;
-    left: 22%;
     background-color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     opacity: 0;
     border: 2px solid #ddd;
 }
