@@ -141,28 +141,29 @@
         <div id="map"></div>
     </article>
 
-    <!-- email 아티클-->
+    <!-- Email 아티클 -->
     <article id="email">
         <!-- 이미지 태그 -->
         <section>
             <div class="email-text">
                 <h2>메일을 보내주세요.</h2>
-                <p>더 많은 정보를 얻거나 협업을 제안하고 싶으실때 언제든지 메일을 보내주세요.<br>
-                    메일로 주신 모든 내용에 성심성의껏 답변드리겠습니다. </p>
+                <p>더 많은 정보를 얻거나 협업을 제안하고 싶으실 때 언제든지 메일을 보내주세요.<br>
+                    메일로 주신 모든 내용에 성심성의껏 답변드리겠습니다.</p>
             </div>
 
             <div class="email-input-btn">
-                <label>
+                <label for="email-input">
                     <img src="../assets/images/mail.png" alt="이메일 이미지">
-                    <input type="text" placeholder="Enter your e-mail address">
+                    <input id="email-input" type="text" placeholder="수신자: qortmdwls275@naver.com" readonly>
                 </label>
                 <button class="email-btn" onclick="openModal()">Subscribe</button>
             </div>
         </section>
 
         <img src="../assets/images/스위스호수마을_1.png" alt="스위스호수마을 이미지">
-
     </article>
+
+
 
 </main>
 
@@ -184,9 +185,9 @@
 <div class="modal" id="myModal">
     <div class="modal-content">
         <img class="modal-background-img" src="../assets/images/thankyou모달.png" alt="모달 배경 이미지">
-        <h3>Thank you!</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-        <button onclick="closeModal()">OK! I Love HODU</button>
+        <h3>감사합니다!</h3>
+        <p>메일로 주신 모든 내용에 성심성의껏 답변드리겠습니다.</p>
+        <button onclick="closeModal()">Ok! See you later!</button>
     </div>
 </div>
 

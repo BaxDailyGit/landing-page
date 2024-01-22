@@ -63,6 +63,7 @@
 }
 
 #email .email-input-btn input {
+    width: 300px;
     margin: 20px 0 20px 0;
     border: none;
     font-size: 16px;
