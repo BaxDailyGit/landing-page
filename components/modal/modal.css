@@ -65,11 +65,14 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    margin: 12px 0 0px 0;
+    margin: 12px 0 0 0;
 }
 
 /* 모달 버튼 스타일 */
 .modal-content button {
     width: 183px;
-    margin: 15px 0 40px 0;
+    margin: 12px 0 40px 0;
+}
+.modal-content button:hover {
+    background-color:  #b9da4a;
 }

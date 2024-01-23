@@ -111,7 +111,6 @@
 }
 
 /* 'move-btn' 클릭 시 색상 변경 효과 */
-#projects .project-item:hover .move-btn,
 #projects .project-item .move-btn:hover {
     opacity: 1;
     background-color: #b9da4a;
