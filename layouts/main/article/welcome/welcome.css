@@ -2,7 +2,7 @@
 
 /* 'welcome' 섹션 스타일 */
 #welcome {
-    background: url('/assets/images/배경.png') center center no-repeat;
+    background: url('assets/images/배경.png') center center no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
