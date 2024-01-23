@@ -19,3 +19,33 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener('click', handleButtonClick);
     });
 });
+
+
+
+
+
+// Wait for the DOM to be ready
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all elements with class "move-btn"
+    var moveButtons = document.querySelectorAll('.move-btn');
+
+    // Define the links to navigate to
+    var links = [
+        "https://github.com/BaxDailyGit/landing-page",
+        "https://github.com/BaxDailyGit/AJouPARKING",
+        "https://github.com/BaxDailyGit/GasGuard"
+    ];
+
+    // Function to handle button click
+    function handleButtonClick(index) {
+        // Open a new browser window/tab with the corresponding link
+        window.open(links[index], '_blank');
+    }
+
+    // Attach click event listener to all move buttons
+    moveButtons.forEach(function(button, index) {
+        button.addEventListener('click', function() {
+            handleButtonClick(index);
+        });
+    });
+});
