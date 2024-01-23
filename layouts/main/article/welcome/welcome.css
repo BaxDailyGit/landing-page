@@ -48,13 +48,13 @@
 }
 
 #welcome p {
-    animation: fadeInUp 1s ease-in-out forwards;
+    animation: fadeInUp 0.8s ease-in-out forwards;
     animation-delay: 2s;
 }
 
 #welcome .downloadButton {
-    animation: fadeInUp 1s ease-in-out forwards;
-    animation-delay: 3s; 
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    animation-delay: 3s;
 }
 
 .sprout,
@@ -96,6 +96,7 @@
     height: 100%;
     background-image: linear-gradient(transparent 80%, rgb(255,217,110) 20%);
     animation: underlineAnimation 1.8s ease-out forwards;
+    animation-delay: 3.8s;
 }
 
 
