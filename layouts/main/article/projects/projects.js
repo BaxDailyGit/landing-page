@@ -14,12 +14,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 const img = document.createElement("img");
                 img.src = item.download_url;
                 img.alt = "Random Image";
+                img.onload = function () {
+                    img.classList.add("loaded");  // Add the "loaded" class when the image is loaded
+                };
                 apiImgSection.appendChild(img);
             });
         } catch (error) {
             console.error("Error fetching images:", error);
         }
     }
+
 
     async function preloadImages() {
         const response = await fetch(`${apiUrl}?page=${currentPage}&limit=${limit}`);
