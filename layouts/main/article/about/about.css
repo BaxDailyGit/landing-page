@@ -19,10 +19,15 @@
 }
 
 #about h2 {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.highlight-text {
     font-size: 40px;
     line-height: 45px;
     font-weight: 300;
-    margin-bottom: 30px;
 }
 
 #about p {
