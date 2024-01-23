@@ -45,6 +45,7 @@
 
 #welcome h2 {
     animation: fadeInUp 1s ease-in-out forwards;
+    transform: translateY(0);
 }
 
 #welcome p {
