@@ -33,7 +33,7 @@ nav a {
 
 /* 링크 호버 효과 */
 nav a:hover {
-    color: var(--main-color);
+    color: #b9da4a;
 }
 
 /* 다운로드 버튼 스타일 */
