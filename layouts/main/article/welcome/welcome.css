@@ -1,6 +1,5 @@
 /* welcome.css */
 #welcome {
-    /*background-color: var(--background-color);*/
     background: url('/assets/images/배경.png') center center no-repeat;
     display: flex;
     justify-content: space-between;
@@ -24,15 +23,46 @@
         transform: translateY(0);
     }
 }
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0; /* 처음에는 투명도를 0으로 설정하여 나타나기 전에 안 보이도록 함 */
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1; /* 최종적으로 나타날 때 투명도를 1로 설정하여 완전히 나타나도록 함 */
+    }
+}
 
-/* Apply animation to h2 and p tags */
 #welcome h2,
 #welcome p,
 #welcome .downloadButton,
-.sprout-man,
+#welcome .sprout,
+#welcome .man{
+    opacity: 0;
+}
+
+
+#welcome h2 {
+    animation: fadeInUp 1s ease-in-out forwards;
+    transform: translateY(0);
+}
+
+#welcome p {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+#welcome .downloadButton {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.sprout,
 .man
 {
-    animation: fadeInUp 1s ease-in-out; /* Adjust the duration and timing function as needed */
+    animation: slideIn  1s ease-in-out forwards;
+    animation-delay: 1s;
 }
 
 #welcome h2 {
@@ -67,6 +97,7 @@
     height: 100%;
     background-image: linear-gradient(transparent 80%, rgb(255,217,110) 20%);
     animation: underlineAnimation 1.8s ease-out forwards;
+    animation-delay: 3.8s;
 }
 
 
