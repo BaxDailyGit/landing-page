@@ -4,7 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hodu</title>
+    <title>백승진 포트폴리오</title>
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../assets/styles/reset.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/common.css">
@@ -46,43 +64,33 @@
             <li><a href="https://github.com/BaxDailyGit" target="_blank">GitHub</a></li>
 
             <!-- Resume 버튼 -->
-            <button class="downloadButton" >Resume</button>
+            <li class="li-btn"><button class="downloadButton" >Resume</button></li>
         </ul>
     </nav>
-
-
 </header>
-
-
-
 
 <!-- 메인 태그 -->
 <main>
-
-
-    <!-- welcome 섹션 -->
-    <article id="welcome" >
-    <section>
-        <!-- 로엠 -->
-        <h2><span class="highlight-text" >백승진</span>입니다.</h2>
-        <p>백엔드 개발자가 되기 위해 공부하고 있습니다.<br>
-            기술에 대한 탐구와 건강한 라이프스타일을 추구합니다.<br>
-            사색하고 기록하는것을 좋아합니다.</p>
-        <button class="downloadButton">Resume</button>
-    </section>
-    <!-- 이미지 태그 -->
+    <!-- welcome 아티클 -->
+    <article id="welcome">
+        <section>
+            <!-- 로엠 -->
+            <h2><span class="highlight-text">백승진</span>입니다.</h2>
+            <p>백엔드 개발자가 되기 위해 공부하고 있습니다.<br>
+                기술에 대한 탐구와 건강한 라이프스타일을 추구합니다.<br>
+                사색하고 기록하는 것을 좋아합니다.</p>
+            <button class="downloadButton">Resume</button>
+        </section>
+        <!-- 이미지 태그 -->
         <div class="sprout-man">
             <img class="sprout" src="../assets/images/새싹.png" alt="큰 고양이">
             <img class="man" src="../assets/images/물주는사람.png" alt="큰 고양이">
         </div>
-
-</article>
-
+    </article>
 
 
     <!-- about 아티클-->
     <article id="about">
-
         <!-- 이미지 태그 -->
         <img src="../assets/images/IMG_1495.JPG" alt="누운 고양이">
         <section>
@@ -99,11 +107,10 @@
     <!-- projects 아티클-->
     <article id="projects">
         <h2>projects</h2>
-        <p>이제까지 진행했던 프로젝트가 최신순으로 정렬되어있습니다. <br>
+        <p>이제까지 진행했던 프로젝트가 최신순으로 정렬되어 있습니다. <br>
             프로젝트 진행을 통해 <span class="highlight">새로운 기술과 문제 해결 능력, 협업 능력</span>을 배우고 조금씩 성장하는 중입니다.</p>
-
         <!--내 프로젝트 이미지-->
-        <section class="projects-api">
+        <div class="projects-api">
             <div class="project-item">
                 <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
                 <p> 포트폴리오<br>
@@ -125,13 +132,12 @@
                     🔥</p>
                 <button class="move-btn">Go to gitbub</button>
             </div>
-        </section>
-
+        </div>
         <!--더보기 버튼-->
-        <section class="show-more-section">
+        <div class="show-more-section">
             <p>Continue Viewing More Projects </p>
             <button class="show-more-btn">Show more</button>
-        </section>
+        </div>
         <hr>
     </article>
 
@@ -160,10 +166,8 @@
                 <button class="email-btn" onclick="openModal()">Send</button>
             </div>
         </section>
-
         <img src="../assets/images/스위스호수마을_1.png" alt="스위스 호수마을 이미지">
     </article>
-
 </main>
 
 <!-- 푸터 태그 -->
@@ -172,15 +176,15 @@
     <a href="#">
         <img src="../assets/images/004.png" alt="Logo">
     </a>
-    <section id="link-img">
-        <button><a href="https://baxdailygit.github.io/" target="_blank"><img src="../assets/images/blog.png" alt="블로그 아이콘"></a></button>
-        <button><a href="#"><img src="../assets/images/instagram.png" alt="인스타그램 아이콘"></a></button>
-        <button><a href="#"><img src="../assets/images/facebook.png" alt="페이스북 아이콘"></a></button>
-        <button><a href="#"><img src="../assets/images/youtube.png" alt="유튜브 아이콘"></a></button>
-    </section>
+    <div id="link-img">
+        <button><img src="../assets/images/blog.png" alt="블로그 아이콘"></button>
+        <button><img src="../assets/images/instagram.png" alt="인스타그램 아이콘"></button>
+        <button><img src="../assets/images/facebook.png" alt="페이스북 아이콘"></button>
+        <button><img src="../assets/images/youtube.png" alt="유튜브 아이콘"></button>
+    </div>
 </footer>
 
-
+<!-- 모달 창 -->
 <div class="modal" id="myModal">
     <div class="modal-content">
         <img class="modal-background-img" src="../assets/images/thankyou모달.png" alt="모달 배경 이미지">
@@ -190,6 +194,7 @@
     </div>
 </div>
 
+<!-- 상단으로 스크롤 버튼 -->
 <button id="scrollToTopBtn">
     <img src="../assets/images/keyboard_arrow_up.png" alt="Scroll to Top">
 </button>

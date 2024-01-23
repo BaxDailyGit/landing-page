@@ -1,4 +1,6 @@
 /* about.css */
+
+/* 'about' 섹션 스타일 */
 #about {
     text-align: center;
     display: flex;
@@ -7,10 +9,12 @@
     margin-top: 80px;
 }
 
+/* 'about' 섹션 내부 스타일 */
 #about section {
     text-align: left;
 }
 
+/* 이미지 스타일 */
 #about img {
     width: 660px;
     height: 390px;
@@ -18,23 +22,28 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* 섹션 제목 스타일 */
 #about h2 {
     font-size: 38px;
     line-height: 45px;
     font-weight: 300;
     margin-bottom: 25px;
 }
+
+/* 강조 텍스트 스타일 */
 .highlight-text {
     font-size: 40px;
     line-height: 45px;
     font-weight: 300;
 }
 
+/* 섹션 본문 스타일 */
 #about p {
     font-size: 21px;
     line-height: 33px;
 }
 
+/* 강조 텍스트 색상 지정 */
 #about p .highlight {
     color: #3D7F4D;
 }
