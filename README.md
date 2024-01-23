@@ -4,6 +4,9 @@
 블로그에 활동 기록을 올려두었으니 참고바랍니다!
 (https://baxdailygit.github.io/categories/#landing-page) 
 
+### 포트폴리오-랜딩페이지 완성화면 캡쳐
+![bsj_landing_page](https://github.com/BaxDailyGit/landing-page/assets/99312529/9c30597f-28ca-4f21-9339-91c770c1e460)
+
 
 ------------------
 
