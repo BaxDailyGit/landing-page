@@ -1,0 +1,137 @@
+/* welcome.css */
+
+/* 'welcome' 섹션 스타일 */
+#welcome {
+    background: url('/assets/images/배경.png') center center no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 320px;
+    margin: 0;
+    height: 800px;
+}
+/* 'article' 스타일 - 왼쪽 정렬 */
+#welcome article {
+    text-align: left;
+    ;
+}
+/* fadeInUp 애니메이션 효과 정의 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* slideIn 애니메이션 효과 정의 */
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0; /* 처음에는 투명도를 0으로 설정하여 나타나기 전에 안 보이도록 함 */
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1; /* 최종적으로 나타날 때 투명도를 1로 설정하여 완전히 나타나도록 함 */
+    }
+}
+/* 일부 요소 초기 투명도 설정 */
+#welcome h2,
+#welcome p,
+#welcome .downloadButton,
+#welcome .sprout,
+#welcome .man{
+    opacity: 0;
+}
+
+/* 'h2' 요소 스타일 및 fadeInUp 애니메이션 적용 */
+#welcome h2 {
+    animation: fadeInUp 1s ease-in-out forwards;
+    transform: translateY(0);
+}
+/* 'p' 요소 스타일 및 fadeInUp 애니메이션 적용 및 지연 설정 */
+#welcome p {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    animation-delay: 2s;
+}
+/* 'downloadButton' 스타일 및 fadeInUp 애니메이션 적용 및 지연 설정 */
+#welcome .downloadButton {
+    animation: fadeInUp 0.8s ease-in-out forwards;
+    animation-delay: 3s;
+}
+/* 'sprout'와 'man' 요소 스타일 및 slideIn 애니메이션 적용 및 지연 설정 */
+.sprout,
+.man
+{
+    animation: slideIn  1s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+#welcome h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* underlineAnimation 애니메이션 효과 정의 */
+@keyframes underlineAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+/* 'highlight-text' 스타일 및 underlineAnimation 애니메이션 적용 및 지연 설정 */
+#welcome .highlight-text {
+    font-size: 72px;
+    position: relative;
+    display: inline-block;
+}
+/* 하이라이트 텍스트의 밑줄 스타일 및 애니메이션 적용 */
+#welcome .highlight-text::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(transparent 80%, rgb(255,217,110) 20%);
+    animation: underlineAnimation 1.8s ease-out forwards;
+    animation-delay: 3.8s;
+}
+
+
+
+
+
+/* 'p' 요소 마지막에 추가 마진 설정 */
+#welcome p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+
+/* 'sprout-man' 클래스 스타일 - 가로로 나열되는 요소들 */
+#welcome .sprout-man {
+    display: flex;
+}
+
+/* 'sprout' 요소 스타일 */
+#welcome  .sprout {
+    width: 100%;
+    height: 100%;
+    margin: 615px 0 0 0;
+}
+/* 'man' 요소 스타일 */
+#welcome .man {
+    margin: 275px 0 0 0;
+}
+/* 'downloadButton' 스타일 및 마진 설정 */
+#welcome .downloadButton {
+    margin: 0 0 50px 0;
+}

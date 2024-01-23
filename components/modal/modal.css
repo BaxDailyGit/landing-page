@@ -1,0 +1,75 @@
+/* modal.css */
+
+/* 모달 기본 스타일 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* 모달 내용 스타일 */
+.modal-content {
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    z-index: 30;
+}
+
+/* 모달 배경 이미지 스타일 */
+.modal-background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 30;
+    border-radius: 20px;
+}
+
+/* 모달의 고양이 이미지, 제목, 내용, 버튼 스타일 */
+.modal-cat-img, .modal-content h3, .modal-content p, .modal-content button {
+    position: relative;
+    z-index: 40;
+}
+
+/* 모달의 고양이 이미지 스타일 */
+.modal-cat-img {
+    width: 110px;
+    height: 112px;
+    margin: 60px 245px 0 245px;
+}
+
+/* 모달 제목 스타일 */
+.modal-content h3 {
+    color: var(--main-color);
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 300;
+    text-align: center;
+    margin: 250px 194px 0 194px;
+}
+
+/* 모달 내용 스타일 */
+.modal-content p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 12px 0 0px 0;
+}
+
+/* 모달 버튼 스타일 */
+.modal-content button {
+    width: 183px;
+    margin: 15px 0 40px 0;
+}

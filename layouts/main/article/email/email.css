@@ -1,0 +1,87 @@
+/* email.css */
+
+/* 'email' 섹션 스타일 */
+#email {
+    margin: 180px 0 0 0;
+    position: relative;
+}
+
+/* 'email' 섹션 내부 스타일 */
+#email section {
+    width: 1280px;
+    height: 200px;
+    background-color: #0C341B;
+    position: absolute;
+    transform: translate(0, -90%);
+    margin: 80px 320px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 배경 이미지 스타일 */
+#email img {
+    width: 1903px;
+    height: 340px;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* 이메일 텍스트 영역 스타일 */
+#email .email-text {
+    margin: 50px 50px;
+}
+
+/* 섹션 제목 스타일 */
+#email h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+/* 섹션 본문 스타일 */
+#email p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* 이메일 입력과 버튼 영역 스타일 */
+#email .email-input-btn {
+    background-color: #fff;
+    width: 530px;
+    height: 60px;
+    margin: 69px 58px 0 0;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 이메일 입력 라벨 스타일 */
+#email .email-input-btn label {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 이메일 아이콘 스타일 */
+#email .email-input-btn img {
+    width: 24px;
+    height: 24px;
+    margin: 18px 16px 18px 28px;
+}
+
+/* 이메일 입력 필드 스타일 */
+#email .email-input-btn input {
+    width: 300px;
+    margin: 20px 0 20px 0;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* 이메일 버튼 스타일 */
+#email .email-input-btn button {
+    margin: 5px 6px;
+}

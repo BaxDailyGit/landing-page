@@ -1,0 +1,48 @@
+/* nav.css */
+
+/* 내비게이션 바 스타일 */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+    margin: 0 320px;
+}
+
+/* 내비게이션 목록 스타일 */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* 내비게이션 항목 스타일 */
+nav li {
+    margin: 15px 15px;
+}
+/* 4번째 li에 대한 스타일 */
+nav li.li-btn {
+    margin: 0;
+}
+/* 링크 스타일 */
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 링크 호버 효과 */
+nav a:hover {
+    color: var(--main-color);
+}
+
+/* 다운로드 버튼 스타일 */
+nav .downloadButton {
+    margin-left: 19px;
+}
+
+/* 로고 이미지 스타일 */
+nav  img {
+    width: 130px;
+    height: 50px;
+}

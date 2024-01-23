@@ -1,0 +1,138 @@
+/* projects.css */
+
+/* 'projects' 섹션 스타일 */
+#projects {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* 'projects' 섹션 제목 스타일 */
+#projects h2 {
+    color: #3D7F4D;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+/* 'projects' 섹션 본문 스타일 */
+#projects p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* 강조 텍스트 스타일 */
+#projects p .highlight {
+    color: #3D7F4D;
+}
+
+/* 'projects-api' 클래스 스타일 */
+#projects .projects-api {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 프로젝트 이미지 스타일 */
+#projects .projects-api img {
+    width: 378px;
+    height: 378px;
+    margin: 36px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;  /* 초기 투명도를 0으로 설정 */
+    transition: opacity 0.5s ease-in-out;  /* 트랜지션 효과 추가 */
+}
+
+/* 이미지 로딩 후 투명도 조정 */
+#projects .projects-api img.loaded {
+    opacity: 1;
+}
+
+/* 'project-item' 클래스 내 이미지 스타일 */
+#projects .projects-api .project-item img {
+    opacity: 1;
+}
+
+/* 'project-item' 클래스 스타일 */
+#projects .project-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 'project-item' 클래스 내 텍스트 스타일 */
+#projects .project-item p {
+    position: absolute;
+    font-size: 30px;
+    line-height: 35px;
+    top: 20%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px 0 10px;
+    opacity: 0;
+    border: 2px solid #fff;
+}
+
+/* 이미지 호버 효과 */
+#projects .projects-api img:hover {
+    opacity: 0.7;
+}
+
+/* 'move-btn' 스타일 */
+#projects .move-btn {
+    font-size: 24px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #408c3c;
+    color: white;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* 이미지와 'move-btn' 호버 효과 */
+#projects .project-item:hover .move-btn,
+#projects .project-item:hover p {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+/* 'move-btn' 호버 효과 */
+#projects .project-item .move-btn:hover {
+    opacity: 1;
+    background-color: #408c3c;
+    color: white;
+}
+
+/* 'move-btn' 클릭 시 색상 변경 효과 */
+#projects .project-item:hover .move-btn,
+#projects .project-item .move-btn:hover {
+    opacity: 1;
+    background-color: #b9da4a;
+    color: white;
+}
+
+/* 이미지 호버 효과 */
+#projects .project-item:hover img {
+    opacity: 0.7;
+}
+
+/* 'show-more-section' 스타일 */
+#projects .show-more-section p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 30px 0 20px 0;
+}
+
+/* 수평선 스타일 */
+#projects hr {
+    border: 1px solid #ddd;
+    margin: 80px 0 68px 0;
+}

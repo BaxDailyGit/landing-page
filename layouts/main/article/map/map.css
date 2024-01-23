@@ -1,0 +1,22 @@
+/* map.css */
+
+/* 'map-article' 섹션 제목 스타일 */
+#map-article h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* 'map-article' 섹션 본문 스타일 */
+#map-article p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 48px;
+}
+
+/* 지도 스타일 */
+#map {
+    width: 1278px;
+    height: 520px;
+}
