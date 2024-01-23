@@ -3,7 +3,7 @@
 /* 사용할 폰트 설정 */
 @font-face {
     font-family: 'BMDOHYEON';
-    src: url('../assets/fonts/BMDOHYEON_ttf.ttf') format('truetype');
+    src: url('../../assets/fonts/BMDOHYEON_ttf.ttf') format('truetype');
 }
 
 /* 수정 예정 부분 */
