@@ -21,7 +21,10 @@ nav ul {
 nav li {
     margin: 15px 15px;
 }
-
+/* 4번째 li에 대한 스타일 */
+nav li.li-btn {
+    margin: 0;
+}
 /* 링크 스타일 */
 nav a {
     text-decoration: none;
