@@ -1,14 +1,21 @@
 // button.js
 
+// Wait for the DOM to be ready
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all elements with class "downloadButton"
+    var downloadButtons = document.querySelectorAll('.downloadButton');
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Find the Resume button element
-    var resumeButton = document.querySelector('.downloadButton');
+    // Define the link to navigate to
+    var targetLink = "https://seungjinbaek.notion.site/seungjinbaek/1b072c03b8ff44dc825d082f4fdb0e61";
 
-    // Add a click event listener to the button
-    resumeButton.addEventListener('click', function () {
-        // Open the link in a new browser window when the button is clicked
-        window.open('https://seungjinbaek.notion.site/seungjinbaek/1b072c03b8ff44dc825d082f4fdb0e61', '_blank');
+    // Function to handle button click
+    function handleButtonClick() {
+        // Open a new browser window/tab with the target link
+        window.open(targetLink, '_blank');
+    }
+
+    // Attach click event listener to all download buttons
+    downloadButtons.forEach(function(button) {
+        button.addEventListener('click', handleButtonClick);
     });
 });
-
