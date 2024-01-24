@@ -26,7 +26,7 @@ var welcomeElements = {
 };
 
 var aboutElements = {
-    h2: getElements('#about h2'),
+    h3: getElements('#about h3'),
     p: getElements('#about p'),
     img: getElements('#about img')
 };
@@ -47,7 +47,7 @@ window.addEventListener('scroll', function () {
     applyAnimation(welcomeElements.man, 'slideIn', 0, 400);
 
     // about 섹션 애니메이션 적용
-    applyAnimation(aboutElements.h2, 'fadeInUp', 100, 1300);
+    applyAnimation(aboutElements.h3, 'fadeInUp', 100, 1300);
     applyAnimation(aboutElements.p, 'fadeInUp', 100, 1300);
     applyAnimation(aboutElements.img, 'fadeInUp', 100, 1300);
     //

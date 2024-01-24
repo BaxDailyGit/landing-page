@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const response = await fetch(`${apiUrl}?page=${currentPage}&limit=${limit}`);
             const data = await response.json();
 
-            const apiImgSection = document.querySelector(".projects-api");
+            const apiImgSection = document.querySelector(".list-projects");
 
             // 가져온 이미지를 화면에 추가
             data.forEach(item => {

@@ -27,14 +27,14 @@
 }
 
 /* 'projects-api' 클래스 스타일 */
-#projects .projects-api {
+#projects .list-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 /* 프로젝트 이미지 스타일 */
-#projects .projects-api img {
+#projects .list-projects img {
     width: 378px;
     height: 378px;
     margin: 36px 0;
@@ -44,12 +44,12 @@
 }
 
 /* 이미지 로딩 후 투명도 조정 */
-#projects .projects-api img.loaded {
+#projects .list-projects img.loaded {
     opacity: 1;
 }
 
 /* 'project-item' 클래스 내 이미지 스타일 */
-#projects .projects-api .project-item img {
+#projects .list-projects .project-item img {
     opacity: 1;
 }
 
@@ -75,7 +75,7 @@
 }
 
 /* 이미지 호버 효과 */
-#projects .projects-api img:hover {
+#projects .list-projects img:hover {
     opacity: 0.7;
 }
 

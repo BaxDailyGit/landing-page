@@ -2,16 +2,13 @@
 
 /* 'about' 섹션 스타일 */
 #about {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 80px;
 }
 
-/* 'about' 섹션 내부 스타일 */
-#about section {
-    text-align: left;
+#about figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 이미지 스타일 */
@@ -23,7 +20,7 @@
 }
 
 /* 섹션 제목 스타일 */
-#about h2 {
+#about h3 {
     font-size: 38px;
     line-height: 45px;
     font-weight: 300;

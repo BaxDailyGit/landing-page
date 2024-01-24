@@ -73,6 +73,7 @@
 <main>
     <!-- welcome 아티클 -->
     <article id="welcome">
+        <h2 class="a11y">welcome 아티클</h2>
         <section>
             <!-- 로엠 -->
             <h2><span class="highlight-text">백승진</span>입니다.</h2>
@@ -91,17 +92,20 @@
 
     <!-- about 아티클-->
     <article id="about">
+        <h2 class="a11y">about 아티클</h2>
         <!-- 이미지 태그 -->
-        <img src="../assets/images/IMG_1495.JPG" alt="들판에 사람">
-        <section>
-            <!-- 로엠 -->
-            <h2><span class="highlight-text">안녕하세요.</span> 백승진입니다.</h2>
-            <p> 물리학, 소프트웨어학을 전공하였습니다.<br>
-                보충역으로 it산업기능요원을 희망합니다.<br>
-                <span class="highlight">백엔드 개발자</span>가 되기 위해 공부하고 있습니다.<br>
-                항상 배우고 발전하는 개발자가 되고 싶습니다.<br>
-            </p>
-        </section>
+        <figure>
+            <img src="../assets/images/IMG_1495.JPG" alt="들판에 사람">
+            <figcaption>
+                <!-- 로엠 -->
+                <h3><span class="highlight-text">안녕하세요.</span> 백승진입니다.</h3>
+                <p> 물리학, 소프트웨어학을 전공하였습니다.<br>
+                    보충역으로 it산업기능요원을 희망합니다.<br>
+                    <span class="highlight">백엔드 개발자</span>가 되기 위해 공부하고 있습니다.<br>
+                    항상 배우고 발전하는 개발자가 되기 위해 노력합니다.<br>
+                </p>
+            </figcaption>
+        </figure>
     </article>
 
     <!-- projects 아티클-->
@@ -110,29 +114,58 @@
         <p>이제까지 진행했던 프로젝트가 최신순으로 정렬되어 있습니다. <br>
             프로젝트 진행을 통해 <span class="highlight">새로운 기술과 문제 해결 능력, 협업 능력</span>을 배우고 조금씩 성장하는 중입니다.</p>
         <!--내 프로젝트 이미지-->
-        <div class="projects-api">
-            <div class="project-item">
+        <ul class="list-projects">
+            <li class="project-item">
                 <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
                 <p> 포트폴리오<br>
                     랜딩 페이지<br>
                     🌱</p>
-                <button class="move-btn">Go to gitbub</button>
-            </div>
-            <div class="project-item">
+                <button class="move-btn">Go to github</button>
+            </li>
+            <li class="project-item">
                 <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티 이미지">
                 <p>주차 정보<br>
                     제공 커뮤니티<br>
                     🚗</p>
-                <button class="move-btn">Go to gitbub</button>
-            </div>
-            <div class="project-item">
+                <button class="move-btn">Go to github</button>
+            </li>
+            <li class="project-item">
                 <img src="../assets/images/gasguard.png" alt="가스 가드 이미지">
                 <p>가스 누출<br>
                     탐지 시스템<br>
                     🔥</p>
-                <button class="move-btn">Go to gitbub</button>
-            </div>
-        </div>
+                <button class="move-btn">Go to github</button>
+            </li>
+        </ul>
+
+
+
+<!--        <div class="projects-api">-->
+<!--            <div class="project-item">-->
+<!--                <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">-->
+<!--                <p> 포트폴리오<br>-->
+<!--                    랜딩 페이지<br>-->
+<!--                    🌱</p>-->
+<!--                <button class="move-btn">Go to gitbub</button>-->
+<!--            </div>-->
+<!--            <div class="project-item">-->
+<!--                <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티 이미지">-->
+<!--                <p>주차 정보<br>-->
+<!--                    제공 커뮤니티<br>-->
+<!--                    🚗</p>-->
+<!--                <button class="move-btn">Go to gitbub</button>-->
+<!--            </div>-->
+<!--            <div class="project-item">-->
+<!--                <img src="../assets/images/gasguard.png" alt="가스 가드 이미지">-->
+<!--                <p>가스 누출<br>-->
+<!--                    탐지 시스템<br>-->
+<!--                    🔥</p>-->
+<!--                <button class="move-btn">Go to gitbub</button>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+
         <!--더보기 버튼-->
         <div class="show-more-section">
             <p>Continue Viewing More Projects </p>
@@ -150,6 +183,7 @@
 
     <!-- Email 아티클 -->
     <article id="email">
+        <h2 class="a11y">Email 아티클</h2>
         <!-- 이미지 태그 -->
         <section>
             <div class="email-text">
