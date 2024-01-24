@@ -2,7 +2,7 @@
 
 /* 다양한 요소들에 적용되는 공통 버튼 스타일 */
 #welcome .downloadButton,
-#projects .show-more-section .show-more-btn,
+#projects .show-more-btn,
 #email .email-input-btn button,
 .modal button,
 nav .downloadButton {
@@ -21,7 +21,7 @@ nav .downloadButton {
 
 /* 버튼 호버 효과 */
 #welcome .downloadButton:hover,
-#projects .show-more-section .show-more-btn:hover,
+#projects .show-more-btn:hover,
 #email .email-input-btn button:hover,
 nav .downloadButton:hover {
    background-color: #b9da4a;
