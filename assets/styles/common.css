@@ -6,14 +6,11 @@
     src: url('../../assets/fonts/BMDOHYEON_ttf.ttf') format('truetype');
 }
 
-/* 수정 예정 부분 */
+
 :root {
     --font-family: 'BMDOHYEON', sans-serif;
     --base-font-size: 16px;
     --line-height: 1.5;
-    --main-color: #D97652;
-    --secondary-color: #F29D52;
-    --background-color: #F2E9D8;
 }
 
 body {
@@ -27,7 +24,16 @@ article {
 }
 
 
-/* 이미지의 공통 스타일 - 모서리를 둥글게 처리 */
+
+
+
+
+
+
+
+
+
+/* 이미지의 공통 스타일 */
 #welcome img,
 #about img,
 #projects .projects-api img,
