@@ -52,7 +52,7 @@
 
 /* 모달 제목 스타일 */
 .modal-content h3 {
-    color: var(--main-color);
+    color: #D97652;
     font-size: 36px;
     line-height: 45px;
     font-weight: 300;
