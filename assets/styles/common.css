@@ -44,7 +44,7 @@ article {
 /* 이미지의 공통 스타일 */
 #welcome img,
 #about img,
-#projects .projects-api img,
+#projects .list-projects img,
 #email img {
     border-radius: 30px;
 }
