@@ -1,7 +1,12 @@
 /* map.css */
 
-/* 'map-article' 섹션 제목 스타일 */
-#map-article h2 {
+#map-section {
+    margin: 0 320px;
+}
+
+
+/* 'map-section' 섹션 제목 스타일 */
+#map-section h2 {
     font-size: 36px;
     line-height: 45px;
     margin-bottom: 20px;
@@ -9,7 +14,7 @@
 }
 
 /* 'map-article' 섹션 본문 스타일 */
-#map-article p {
+#map-section p {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 48px;
