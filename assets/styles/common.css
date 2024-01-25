@@ -19,26 +19,6 @@ body {
     line-height: var(--line-height);
 }
 
-article {
-    margin: 0 320px;
-}
-
-
-
-.a11y{
-    display: inline-block;
-    position:absolute;
-    overflow:hidden;
-    width:1px;
-    height:1px;
-    border:none;
-    clip-path:inset(50%);
-}
-
-
-
-
-
 
 
 /* 이미지의 공통 스타일 */

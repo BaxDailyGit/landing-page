@@ -1,6 +1,6 @@
 /* welcome.css */
 
-/* welcome 아티클 스타일 */
+/* welcome 섹션 스타일 */
 #welcome {
     background: url('../../../../assets/images/배경.png') center center no-repeat;
     display: flex;
@@ -9,12 +9,9 @@
     padding: 0 320px;
     margin: 0;
     height: 800px;
-}
-/* 'article' 스타일 - 왼쪽 정렬 */
-#welcome article {
     text-align: left;
-    ;
 }
+
 /* fadeInUp 애니메이션 효과 정의 */
 @keyframes fadeInUp {
     from {

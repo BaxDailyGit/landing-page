@@ -7,7 +7,7 @@
 }
 
 /* 'email' 섹션 내부 스타일 */
-#email section {
+.email-section {
     width: 1280px;
     height: 200px;
     background-color: #0C341B;
