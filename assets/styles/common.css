@@ -19,10 +19,6 @@ body {
     line-height: var(--line-height);
 }
 
-article {
-    margin: 0 320px;
-}
-
 
 
 .a11y{
