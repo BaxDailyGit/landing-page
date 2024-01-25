@@ -18,7 +18,7 @@ function applyAnimation(element, animation, rangeStart, rangeEnd) {
 
 // 요소들을 저장
 var welcomeElements = {
-    h2: getElements('#welcome h2'),
+    h2: getElements('#welcome section h2'),
     p: getElements('#welcome p'),
     btn: getElements('#welcome .downloadButton'),
     sprout: getElements('#welcome .sprout'),
