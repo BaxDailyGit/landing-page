@@ -43,3 +43,25 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+// footer 버튼에 대한 이벤트 핸들러 추가
+document.getElementById('blogBtn').addEventListener('click', function() {
+    // 새 브라우저 탭에서 블로그로 이동하는 코드
+    window.open('https://baxdailygit.github.io/', '_blank');
+});
+
+document.getElementById('instagramBtn').addEventListener('click', function() {
+    // 새 브라우저 탭에서 인스타그램으로 이동하는 코드
+    window.open('https://www.instagram.com/', '_blank');
+});
+
+document.getElementById('facebookBtn').addEventListener('click', function() {
+    // 새 브라우저 탭에서 페이스북으로 이동하는 코드
+    window.open('https://www.facebook.com/?locale=ko_KR', '_blank');
+});
+
+document.getElementById('youtubeBtn').addEventListener('click', function() {
+    // 새 브라우저 탭에서 유튜브로 이동하는 코드
+    window.open('https://www.youtube.com/', '_blank');
+});
