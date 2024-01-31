@@ -10,7 +10,9 @@ GitHub Pages를 통해 호스팅되며, 다음 링크를 통해 확인할 수 �
 1920x1080해상도 100%배율 기준으로 제작하였으며 반응형 웹은 추후에 차근차근 구현 예정입니다. 
 
 ### 포트폴리오-랜딩페이지 완성화면 캡쳐
-![screencapture-baxdailygit-github-io-landing-page-pages-2024-01-25-16_20_50](https://github.com/BaxDailyGit/landing-page/assets/99312529/6c3cbdf3-ecf4-4f08-96c3-ef7a9cb067d8)
+
+![screencapture-baxdailygit-github-io-landing-page-pages-2024-01-31-21_29_42](https://github.com/BaxDailyGit/landing-page/assets/99312529/8f01320b-f960-4e8c-bacd-33ba5e1ee722)
+
 
 
 
