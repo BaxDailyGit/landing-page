@@ -2,11 +2,12 @@
 
 포트폴리오 랜딩 페이지를 제작하였습니다.  
 본 랜딩 페이지는 저의 간단한 소개, 경험했던 프로젝트, map, email을 제공합니다.  
+
+### 제작기간: 2024년 1월 17일~24일
   
 GitHub Pages를 통해 호스팅되며, 다음 링크를 통해 확인할 수 있습니다: [Portfolio Landing Page](https://baxdailygit.github.io/landing-page/pages/)  
-활동 기록은 [Blog](https://baxdailygit.github.io/categories/#landing-page)에 올려두었으니 참고바랍니다!
-
-
+활동 기록은 [Blog](https://baxdailygit.github.io/categories/#landing-page)에 올려두었으니 참고바랍니다!  
+1920x1080해상도 100%배율 기준으로 제작하였으며 반응형 웹은 추후에 차근차근 구현 예정입니다. 
 
 ### 포트폴리오-랜딩페이지 완성화면 캡쳐
 ![screencapture-baxdailygit-github-io-landing-page-pages-2024-01-25-16_20_50](https://github.com/BaxDailyGit/landing-page/assets/99312529/6c3cbdf3-ecf4-4f08-96c3-ef7a9cb067d8)
