@@ -6,7 +6,7 @@
 ### 제작기간: 2024년 1월 17일~24일
   
 GitHub Pages를 통해 호스팅되며, 다음 링크를 통해 확인할 수 있습니다: [Portfolio Landing Page](https://baxdailygit.github.io/landing-page/pages/)  
-활동 기록은 [Blog](https://baxdailygit.github.io/categories/#landing-page)에 올려두었으니 참고바랍니다!  
+활동 기록은 [Blog](https://baxdailygit.github.io/categories/#landing-page)에 올려두었으니 참고바랍니다! (작성중)  
 1920x1080해상도 100%배율 기준으로 제작하였으며 반응형 웹은 추후에 차근차근 구현 예정입니다. 
 
 ### 포트폴리오-랜딩페이지 완성화면 캡쳐
