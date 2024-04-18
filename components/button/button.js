@@ -67,6 +67,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    // ESC 키로 모달창 닫기
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            projectModal.close();
+
+            // 배경 스크롤 복원
+            document.body.style.overflow = 'auto';
+        }
+    });
+
     // 모든 이동 버튼에 클릭 이벤트 추가
     moveButtons.forEach(function(button) {
         button.addEventListener('click', handleButtonClick);
