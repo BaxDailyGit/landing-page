@@ -1,0 +1,110 @@
+/* projects-modal.css */
+
+#projectModal {
+    width: 80%;
+    height: 90%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px 0 20px;
+}
+
+#projectModal::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#projectModal .modal-content {
+    position: relative;
+}
+
+#projectModal .project-details {
+    display: none;
+}
+
+#projectModal .project-details.active {
+    display: block;
+}
+
+#projectModal figure {
+    display: flex;
+}
+
+#projectModal figure img {
+    width: 800px;
+    height: 800px;
+    margin-right: 50px;
+    /*margin-top: 50px;*/
+    border-radius: 20px;
+
+}
+
+#projectModal figcaption {
+    width: auto;
+}
+
+#projectModal h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#projectModal .github-btn {
+    display: inline-block;
+    background-color: #24292e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#projectModal h4 {
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+#projectModal p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+#projectModal ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#projectModal ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+#projectModal .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #408c3c;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 19.09px;
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    padding: 0;
+    z-index: 41;
+}
+
+#projectModal .close-btn:hover {
+    background-color: #b9da4a;
+}
+
+/*스크롤바 안보이도록*/
+
+#projectModal::-webkit-scrollbar {
+    display: none;
+}

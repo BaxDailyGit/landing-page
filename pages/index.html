@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../layouts/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="../components/button/button.css">
     <link rel="stylesheet" type="text/css" href="../components/modal/modal.css">
+    <link rel="stylesheet" type="text/css" href="../components/modal/projects-modal.css">
     <link rel="stylesheet" type="text/css" href="../components/scroll-top/scroll-top.css">
     <link rel="stylesheet" type="text/css" href="../components/scrollbar/scrollbar.css">
 </head>
@@ -110,25 +111,25 @@
         <!--내 프로젝트 이미지-->
         <ul class="list-projects">
             <li class="project-item">
+                <img src="../assets/images/logo_404.png" alt="wefound 이미지">
+                <p>404WeFound<br>
+                    개발 커뮤니티<br>
+                    💻</p>
+                <button class="move-btn" data-project="wefound">자세히</button>
+            </li>
+            <li class="project-item">
                 <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
-                <p> 포트폴리오<br>
+                <p>포트폴리오<br>
                     랜딩 페이지<br>
                     🌱</p>
-                <button class="move-btn">Go to github</button>
+                <button class="move-btn" data-project="landing-page">자세히</button>
             </li>
             <li class="project-item">
                 <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티 이미지">
                 <p>주차 정보<br>
                     제공 커뮤니티<br>
                     🚗</p>
-                <button class="move-btn">Go to github</button>
-            </li>
-            <li class="project-item">
-                <img src="../assets/images/gasguard.png" alt="가스 가드 이미지">
-                <p>가스 누출<br>
-                    탐지 시스템<br>
-                    🔥</p>
-                <button class="move-btn">Go to github</button>
+                <button class="move-btn" data-project="ajouparking">자세히</button>
             </li>
         </ul>
 
@@ -137,6 +138,131 @@
         <button class="show-more-btn">Show more</button>
         <hr>
     </section>
+
+    <!-- 프로젝트 모달 -->
+    <dialog id="projectModal">
+        <button class="close-btn">닫기</button>
+        <div class="modal-content">
+            <!-- 404WeFound -->
+            <div id="wefound" class="project-details">
+
+                <figure>
+                    <img src="../assets/images/logo_404.png" alt="404WeFound 이미지">
+                    <figcaption>
+                        <h3>팀프로젝트 - 404WeFound</h3>
+                        <a href="https://github.com/BaxDailyGit/404WeFound" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>개발자 질문, 답변 커뮤니티</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>24년 3월 22일 ~ 4월 9일 (18일)<br>
+                            본인 포함 4명</p>
+                        <h4>[핵심 기능]</h4>
+                        <ul>
+                            <li>질문,답변,댓글 CRUD</li>
+                            <li>좋아요 -> 포인트 -> 등급 시스템으로 인한 프리미엄 게시판 접근</li>
+                            <li>관리자 페이지(회원 관리)</li>
+                        </ul>
+                        <h4>[배포 url]</h4>
+                        <p>http://404wefound.com:8080 (현재 서비스 종료)</p>
+                        <h4>[전체 시연영상]</h4>
+                        <p><a href="https://www.youtube.com/watch?v=HlBxpM8Yg4o" target="_blank">https://www.youtube.com/watch?v=HlBxpM8Yg4o</a></p>
+                        <h4>[기술스택]</h4>
+                        <p>FE: html, css, javascript, thymeleaf</p>
+                        <p>BE: java, springboot, spring data jpa, spring security</p>
+                        <p>DB: h2, mysql</p>
+                        <p>DEPLOY: ec2, rds</p>
+                        <h4>[본인의 역할]</h4>
+                        <ul>
+                            <li>프로젝트 설정 및 관리</li>
+                            <li>스피링 시큐리티를 사용한 사용자 회원가입/로그인(formLogin 방식)기능 구현</li>
+                            <li>좋아요 → 포인트 → 등급 시스템 구현</li>
+                            <li>프리미엄 게시판 구현</li>
+                            <li>관리자페이지 구현</li>
+                            <li>배포(EC2)</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- 포트폴리오 랜딩 페이지 -->
+            <div id="landing-page" class="project-details">
+
+                <figure>
+                    <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
+                    <figcaption>
+                        <h3>개인프로젝트 - 포트폴리오 랜딩페이지</h3>
+                        <a href="https://github.com/BaxDailyGit/landing-page" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>본인을 간단히 소개하는 포트폴리오 랜딩페이지</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>24년 1월 17일 ~ 24일 (8일)</p>
+                        <h4>[핵심 기능]</h4>
+                        <ul>
+                            <li>Navigation Bar: 로고, Home, Blog, GitHub, Resume 버튼을 포함한 내비게이션 바</li>
+                            <li>Welcome Section: 인사말, 자기소개, Resume 버튼이 있는 환영 섹션</li>
+                            <li>About Section: 프로필 사진과 자기소개 텍스트가 있는 소개 섹션</li>
+                            <li>Projects Section: 프로젝트 목록, 프로젝트 이미지, "자세히", "GitHub", "더보기" 버튼이 있는 프로젝트 섹션</li>
+                            <li>Map Section: 지도를 표시하는 섹션</li>
+                            <li>Email Section: 이메일 보내기 기능, 이메일 주소 입력 필드, 이메일 작성 버튼이 있는 섹션</li>
+                            <li>Footer: 로고, 블로그/SNS 링크 버튼이 있는 푸터</li>
+                            <li>Modal: 프로젝트 내용, 감사 메시지를 표시하는 모달 창</li>
+                            <li>Scroll to Top Button: 페이지 상단으로 스크롤할 수 있는 버튼</li>
+                        </ul>
+                        <h4>[배포 url]</h4>
+                        <p><a href="https://baxdailygit.github.io/landing-page/pages/" target="_blank">https://baxdailygit.github.io/landing-page/pages/</a></p>
+                        <h4>[기술스택]</h4>
+                        <p>FE: html, css, javascript</p>
+                        <h4>[특징 및 설명]</h4>
+                        <ul>
+                            <li>이스트소프트 백엔드 부트캠프 오르미 4기 개인 프로젝트</li>
+                            <li>순수한 Html, Css, Javascript만을 사용 (지도 api 제외)</li>
+                            <li>시맨틱한 html 태그 추구</li>
+                            <li>Git pages로 배포</li>
+                            <li>반응형 웹으로 업데이트 예정</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <!-- AJouPARKING -->
+            <div id="ajouparking" class="project-details">
+
+                <figure>
+                    <img src="../assets/images/ajouparking.png" alt="AJouPARKING 이미지">
+                    <figcaption>
+                        <h3>팀프로젝트 - AJouPARKING</h3>
+                        <a href="https://github.com/BaxDailyGit/AJouPARKING" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>향상된 주차장 정보 제공 커뮤니티</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>23년 11월 22일 ~ 12월 12일 (3주)<br>본인 포함 2명</p>
+                        <h4>[핵심 기능]</h4>
+                        <ul>
+                            <li>지도, 로드뷰 토글</li>
+                            <li>주차장 검색, 상세 조회</li>
+                            <li>리뷰 작성 및 상세 조회</li>
+                            <li>좋아요 → exp → 티어 시스템</li>
+                            <li>주차장 만족도 조사 및 분석 시각화 제공</li>
+                            <li>즐겨찾기 등록/제거</li>
+                        </ul>
+                        <h4>[배포 url]</h4>
+                        <p>로컬 환경에서만 구현</p>
+                        <h4>[기술스택]</h4>
+                        <p>FE: html, css, javascript, thymeleaf</p>
+                        <p>BE: java, springboot, spring data jpa, spring security</p>
+                        <p>DB: mysql</p>
+                        <h4>[본인의 역할]</h4>
+                        <ul>
+                            <li>위 핵심 기능 모두 구현 (로그인/회원가입 기능 제외)</li>
+                            <li>프론트엔드 모두 구현</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </dialog>
 
     <!-- map 섹션-->
     <section id="map-section">
