@@ -24,26 +24,54 @@ document.addEventListener("DOMContentLoaded", function() {
     // "move-btn" 클래스를 가진 모든 요소 선택
     var moveButtons = document.querySelectorAll('.move-btn');
 
-    // 이동할 링크들 정의
-    var links = [
-        "https://github.com/BaxDailyGit/landing-page",
-        "https://github.com/BaxDailyGit/AJouPARKING",
-        "https://github.com/BaxDailyGit/GasGuard"
-    ];
+    function handleButtonClick(event) {
+        var projectId = event.target.getAttribute('data-project');
+        var projectModal = document.getElementById('projectModal');
+        var projectDetails = projectModal.querySelectorAll('.project-details');
 
-    // 버튼 클릭 시 해당 링크 새 창에서 열기
-    function handleButtonClick(index) {
-        window.open(links[index], '_blank');
+        // 모든 프로젝트 상세 정보 숨기기
+        projectDetails.forEach(function(detail) {
+            detail.style.display = 'none';
+        });
+
+        // 선택된 프로젝트의 상세 정보 표시
+        var selectedProject = document.getElementById(projectId);
+        selectedProject.style.display = 'block';
+
+        // 모달창 열기
+        projectModal.showModal();
+
+        // 배경 스크롤 정지
+        document.body.style.overflow = 'hidden';
     }
 
+    // 모달창 닫기 버튼 클릭 시 이벤트 핸들러
+    var closeBtn = document.querySelector('.close-btn');
+
+    closeBtn.addEventListener('click', function() {
+        var projectModal = document.getElementById('projectModal');
+        projectModal.close();
+
+        // 배경 스크롤 복원
+        document.body.style.overflow = 'auto';
+    });
+
+    // 모달창 외부 클릭 시 모달창 닫기
+    var projectModal = document.getElementById('projectModal');
+    projectModal.addEventListener('click', function(event) {
+        if (event.target === projectModal) {
+            projectModal.close();
+
+            // 배경 스크롤 복원
+            document.body.style.overflow = 'auto';
+        }
+    });
+
     // 모든 이동 버튼에 클릭 이벤트 추가
-    moveButtons.forEach(function(button, index) {
-        button.addEventListener('click', function() {
-            handleButtonClick(index);
-        });
+    moveButtons.forEach(function(button) {
+        button.addEventListener('click', handleButtonClick);
     });
 });
-
 
 // footer 버튼에 대한 이벤트 핸들러 추가
 document.getElementById('blogBtn').addEventListener('click', function() {
