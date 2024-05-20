@@ -1,3 +1,4 @@
+//project.js
 document.addEventListener("DOMContentLoaded", function () {
     let apiUrl = "https://picsum.photos/v2/list";
     let currentPage = 4;
