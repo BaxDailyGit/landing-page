@@ -4,6 +4,8 @@
 #email {
     margin: 180px 0 0 0;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 /* 'email' 섹션 내부 스타일 */
@@ -21,7 +23,7 @@
 
 /* 배경 이미지 스타일 */
 #email img {
-    width: 1903px;
+    width: 1910px;
     height: 340px;
     margin: 0;
     border-radius: 0;
