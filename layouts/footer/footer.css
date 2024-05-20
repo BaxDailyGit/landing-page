@@ -5,7 +5,14 @@ footer {
     margin: 45px 320px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.footer-div {
+    width: 1270px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* 푸터 이미지 스타일 */

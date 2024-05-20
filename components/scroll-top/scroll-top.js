@@ -1,3 +1,5 @@
+// scroll-top.js
+
 // 페이지가 스크롤될 때 이벤트 리스너 등록
 window.addEventListener("scroll", function() {
     // 현재 스크롤 위치를 가져오기

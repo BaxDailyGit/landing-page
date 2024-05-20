@@ -1,4 +1,4 @@
-// JavaScript 코드 (script.js)
+// modal.js
 function openModal() {
     document.getElementById('myModal').style.display = 'flex';
 }
