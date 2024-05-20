@@ -3,11 +3,19 @@
 /* 내비게이션 바 스타일 */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 31px 0;
     margin: 0 320px;
 }
+
+.nav-div {
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* 내비게이션 목록 스타일 */
 nav ul {
