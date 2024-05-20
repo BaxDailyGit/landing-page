@@ -4,6 +4,17 @@
     margin: 0 320px;
 }
 
+#map-section .map-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-section .map-text {
+    width: 1270px;
+}
+
 
 /* 'map-section' 섹션 제목 스타일 */
 #map-section h2 {
