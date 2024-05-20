@@ -4,6 +4,10 @@
 #projects {
     text-align: center;
     margin: 120px 320px 0 320px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 'projects' 섹션 제목 스타일 */
@@ -26,12 +30,21 @@
     color: #3D7F4D;
 }
 
+.list-projects-div {
+    width: 1270px;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
 /* 'projects-api' 클래스 스타일 */
 #projects .list-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 1270px;
 }
+
 
 /* 프로젝트 이미지 스타일 */
 #projects .list-projects img {
