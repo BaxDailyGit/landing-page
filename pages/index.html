@@ -113,25 +113,67 @@
         <div class="list-projects-div">
             <ul class="list-projects">
                 <li class="project-item">
+                    <img src="../assets/images/오늘의책_메인.png" alt="오늘의책 이미지">
+                    <p>오늘의 책<br>
+                        e-커머스 플랫폼<br>
+                        📚<br>
+                        24.4.24~5.16</p>
+                    <button class="move-btn" data-project="todaysbook">자세히</button>
+                </li>
+                <li class="project-item">
                     <img src="../assets/images/logo_404.png" alt="wefound 이미지">
                     <p>404WeFound<br>
                         개발 커뮤니티<br>
-                        💻</p>
+                        🧑‍💻👩‍💻👨‍💻‍<br>
+                        24.3.22~4.9</p>
                     <button class="move-btn" data-project="wefound">자세히</button>
                 </li>
                 <li class="project-item">
                     <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
                     <p>포트폴리오<br>
                         랜딩 페이지<br>
-                        🌱</p>
+                        🌱<br>
+                        24.1.17~1.24</p>
                     <button class="move-btn" data-project="landing-page">자세히</button>
                 </li>
                 <li class="project-item">
                     <img src="../assets/images/ajouparking.png" alt="주차 정보 제공 커뮤니티 이미지">
                     <p>주차 정보<br>
                         제공 커뮤니티<br>
-                        🚗</p>
+                        🚗<br>
+                        23.11.22~12.12</p>
                     <button class="move-btn" data-project="ajouparking">자세히</button>
+                </li>
+                <li class="project-item">
+                    <img src="../assets/images/gasguard.png" alt="gasguard 이미지">
+                    <p>GasGuard<br>
+                        가스 누출 탐지 시스템<br>
+                        🔥<br>
+                        23.5.20~6.8</p>
+                    <button class="move-btn" data-project="GasGuard">자세히</button>
+                </li>
+                <li class="project-item">
+                    <img src="../assets/images/arpes_s.png" alt="arpes 이미지">
+                    <p>ARPES 데이터<br>
+                        노이즈 감소 연구<br>
+                        ⚛️<br>
+                        23.4.1~.6.15</p>
+                    <button class="move-btn" data-project="ARPES">자세히</button>
+                </li>
+                <li class="project-item">
+                    <img src="../assets/images/ct_pet.jpg" alt="ct_pet 이미지">
+                    <p>핵의학과 학부연구생<br>
+                        각종 매크로<br>
+                        🩻<br>
+                        21.9.1~22.12.31</p>
+                    <button class="move-btn" data-project="Nuclear-Medicine_macro">자세히</button>
+                </li>
+                <li class="project-item">
+                    <img src="../assets/images/barberry-8694277_1280.jpg" alt="무료
+                     이미지">
+                </li>
+                <li class="project-item">
+                    <img src="../assets/images/marguerite-729510_1280.jpg" alt="무료 이미지">
                 </li>
             </ul>
         </div>
@@ -142,15 +184,69 @@
         <hr>
     </section>
 
+
+
     <!-- 프로젝트 모달 -->
     <dialog id="projectModal">
         <button class="close-btn">닫기</button>
         <div class="modal-content">
+            <!-- todaysbook -->
+            <div id="todaysbook" class="project-details">
+                <figure>
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/오늘의책_메인.png" alt="오늘의책 이미지">
+                        <img src="../assets/images/실시간_검색_앨런_안녕하세요.png" alt="실시간_검색_앨런_안녕하세요 이미지">
+                        <img src="../assets/images/실시간_검색_앨런_검색결과.png" alt="실시간_검색_앨런_검색결과 이미지">
+                        <img src="../assets/images/ai_추천책_관리.png" alt="ai_추천책_관리 이미지">
+                    </div>
+                    <figcaption>
+                        <h3>팀프로젝트 - 오늘의 책</h3>
+                        <a href="https://github.com/BaxDailyGit/todaysbook" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>책 애호가를 위한 책 추천 플랫폼</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>24년 4월 24일 ~ 5월 16일 (23일)<br>
+                            본인 포함 6명</p>
+                        <h4>[핵심 기능]</h4>
+                        <ul>
+                            <li>AI 기반 책 추천 (Gemini, Alan, Mahout)</li>
+                            <li>사용자 추천 리스트 생성/조회</li>
+                            <li>책 조회, 검색, 상세, 리뷰, 구매</li>
+                            <li>통합 관리 (마이페이지, 관리자 페이지)</li>
+                        </ul>
+                        <h4>[배포 url]</h4>
+                        <p><a href= "http://43.203.7.96:8080/" target="_blank">http://43.203.7.96:8080/</a></p>
+                        <h4>[전체 시연영상]</h4>
+                        <p><a href="https://drive.google.com/file/d/1UKE7NmfaBCsVVEPXpFwitNbQyLT4Krya/view" target="_blank">https://drive.google.com/file/d/1UKE7NmfaBCsVVEPXpFwitNbQyLT4Krya/view</a></p>
+                        <h4>[기술스택]</h4>
+                        <p>FE: HTML5, CSS, JavaScript</p>
+                        <p>BE: Java, Spring Boot, Thymeleaf</p>
+                        <p>DB: MySQL, Amazon RDS</p>
+                        <p>DA: Apache Mahout</p>
+                        <p>AI: Google Gemini, Alan AI</p>
+                        <p>DEPLOY: Amazon EC2, Amazon S3, GitHub</p>
+                        <p>협업도구: JIRA, ERDCloud, Figma, Discord, Notion</p>
+                        <h4>[본인의 역할]</h4>
+                        <ul>
+                            <li>ERD 설계</li>
+                            <li>Alan API 활용 SSE 실시간 채팅 API</li>
+                            <li>Alan 챗봇 동적 채팅 UI</li>
+                            <li>Alan 초기화 API 연동</li>
+                            <li>Gemini API 활용 스케줄링 자동/수동 책 추천 및 배치 작업</li>
+                            <li>Gemini 추천 책 조회 및 관리 API</li>
+                            <li>Gemini 추천 책 관리자 페이지 UI</li>
+                            <li>알라딘 API 활용 책 정보 검색 및 저장</li>
+                        </ul>
+                        <h4><br>← 본인이 담당한 페이지 캡쳐 </h4>
+                    </figcaption>
+                </figure>
+            </div>
             <!-- 404WeFound -->
             <div id="wefound" class="project-details">
-
                 <figure>
-                    <img src="../assets/images/logo_404.png" alt="404WeFound 이미지">
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/logo_404.png" alt="404WeFound 이미지">
+                    </div>
                     <figcaption>
                         <h3>팀프로젝트 - 404WeFound</h3>
                         <a href="https://github.com/BaxDailyGit/404WeFound" target="_blank" class="github-btn">GitHub</a>
@@ -186,12 +282,12 @@
                     </figcaption>
                 </figure>
             </div>
-
             <!-- 포트폴리오 랜딩 페이지 -->
             <div id="landing-page" class="project-details">
-
                 <figure>
-                    <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/portfoliolandingpage.png" alt="포트폴리오 랜딩 페이지 이미지">
+                    </div>
                     <figcaption>
                         <h3>개인프로젝트 - 포트폴리오 랜딩페이지</h3>
                         <a href="https://github.com/BaxDailyGit/landing-page" target="_blank" class="github-btn">GitHub</a>
@@ -223,16 +319,15 @@
                             <li>Git pages로 배포</li>
                             <li>반응형 웹으로 업데이트 예정</li>
                         </ul>
-                    </figcaption>
+                </figcaption>
                 </figure>
-
             </div>
-
             <!-- AJouPARKING -->
             <div id="ajouparking" class="project-details">
-
                 <figure>
-                    <img src="../assets/images/ajouparking.png" alt="AJouPARKING 이미지">
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/ajouparking.png" alt="AJouPARKING 이미지">
+                    </div>
                     <figcaption>
                         <h3>팀프로젝트 - AJouPARKING</h3>
                         <a href="https://github.com/BaxDailyGit/AJouPARKING" target="_blank" class="github-btn">GitHub</a>
@@ -263,7 +358,128 @@
                     </figcaption>
                 </figure>
             </div>
-
+            <!-- GasGuard -->
+            <div id="GasGuard" class="project-details">
+                <figure>
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/gas_1.png" alt="gas_1 이미지">
+                        <img src="../assets/images/gas_2.png" alt="gas_2 이미지">
+                        <img src="../assets/images/gas_3.png" alt="gas_3 이미지">
+                        <img src="../assets/images/gas_4.png" alt="gas_4 이미지">
+                    </div>
+                    <figcaption>
+                        <h3>팀프로젝트 - GasGuard</h3>
+                        <a href="https://github.com/BaxDailyGit/GasGuard" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>가스 누출 탐지 시스템</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>23년 5월 20일 ~ 6월 08일 (20일)<br>
+                            본인 포함 4명</p>
+                        <h4>[핵심 기능]</h4>
+                        <ul>
+                            <li>가스 센서 데이터 수신 및 처리</li>
+                            <li>가스 농도에 따른 LED 제어 (빨간색, 노란색, 초록색)</li>
+                            <li>가스 농도에 따른 부저 제어 (경고음 발생)</li>
+                            <li>LCD를 통한 가스 농도 정보 표시</li>
+                            <li>소켓 통신을 통한 데이터 수신</li>
+                        </ul>
+                        <h4>[전체 시연영상]</h4>
+                        <p><a href="https://github.com/BaxDailyGit/GasGuard?tab=readme-ov-file#%EA%B2%B0%EA%B3%BC" target="_blank">https://github.com/BaxDailyGit/GasGuard?tab=readme-ov-file#%EA%B2%B0%EA%B3%BC</a></p>
+                        <h4>[기술스택]</h4>
+                        <p><pre>
+- C언어
+- Linux
+    - GPIO 제어<!--        - LED 제어를 위한 GPIO 출력 핀 설정 및 값 쓰기-->
+    - PWM 제어<!--        - 부저 제어를 위한 PWM 사용-->
+    - 파일 I/O<!--        - /sys/class/gpio 디렉터리를 통한 GPIO 제어--><!--        - /sys/class/pwm 디렉터리를 통한 PWM 제어-->
+- 소켓 프로그래밍 (Berkeley 소켓 인터페이스, TCP 프로토콜)<!--    - Berkeley 소켓 인터페이스 사용--><!--    - TCP 프로토콜을 이용한 서버-클라이언트 통신--><!--    - 서버로부터 가스 센서 데이터 수신-->
+- I2C 통신<!--    - LCD 디스플레이 제어를 위한 I2C 프로토콜 사용--><!--    - I2C 디바이스 파일을 통한 데이터 읽기/쓰기-->
+- 임베디드 시스템 프로그래밍 (Raspberry Pi, ARM 아키텍처 기반 Linux)<!--    - Raspberry Pi 보드 사용--><!--    - ARM 아키텍처 기반 Linux 운영체제--></pre></p>
+                        <h4>[본인의 역할]</h4>
+                        <ul>
+                            <li>1. GPIO 제어</li>
+                            <li>&ensp;- LED를 제어하기 위해 Raspberry Pi의 GPIO 핀을 사용</li>
+                            <li>&ensp;- GPIO 핀을 출력 모드로 설정하고, 해당 핀의 값을 제어하여 LED를 켜고 끄기</li>
+                            <li>2. 파일 I/O를 이용한 GPIO 제어</li>
+                            <li>&ensp;- Linux의 sysfs 인터페이스(/sys/class/gpio)를 통해 GPIO 핀을 제어</li>
+                            <li>3. 소켓 프로그래밍을 통한 가스 센서 데이터 수신</li>
+                            <li>&ensp;- 서버로부터 TCP 소켓 통신을 통해 가스 센서 데이터를 수신</li>
+                            <li>&ensp;- 소켓 생성, 서버 주소 설정, 연결 후 read() 시스템 호출로 데이터를 수신</li>
+                            <li>&ensp;- 수신한 데이터를 정수형으로 변환하여 가스 농도 값 얻기</li>
+                            <li>4. 가스 농도 범위에 따른 LED 제어 로직</li>
+                            <li>&ensp;- 서버로부터 수신한 가스 센서 값(0~1023 범위)에 따라 LED를 다르게 제어</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- ARPES -->
+            <div id="ARPES" class="project-details">
+                <figure>
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/arpes_p.png" alt="arpes_p 이미지">
+                    </div>
+                    <figcaption>
+                        <h3>ARPES 데이터 노이즈 감소 연구</h3>
+                        <a href="https://github.com/BaxDailyGit/todaysbook" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>오토인코더 기반의 인공지능 학습을 사용하여 ARPES 데이터에서 발생하는 노이즈를 효과적으로 제거하여 정확하고 신뢰할 수 있는 전자구조 정보를 얻기위한 연구</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>23년 4월 1일 ~ 6월 15일 (76일)<br>
+                            본인 포함 1명</p>
+                        <h4>[진행 순서]</h4>
+                        <ul>
+                            <li>ARPES data 이해하기
+                            <li>EDA & 전처리
+                            <li>Training
+                            <li>평가
+                            <li>결과 고찰
+                        </ul>
+                        <h4>[기술스택]</h4>
+                        <p><pre>
+Python
+    - NumPy
+    - Pandas
+    - Matplotlib
+    - SciPy
+    - PyTorch
+    - OpenCV
+    - scikit-image
+                        </pre></p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- Nuclear-Medicine_macro -->
+            <div id="Nuclear-Medicine_macro" class="project-details">
+                <figure>
+                    <div class="project-details-img-div">
+                        <img src="../assets/images/블러처리_1.jpg" alt="블러처리_1 이미지">
+                        <img src="../assets/images/블러처리_2.jpg" alt="블러처리_2 이미지">
+                        <img src="../assets/images/블러처리_3.jpg" alt="블러처리_3 이미지">
+                        <img src="../assets/images/블러처리_4.jpg" alt="블러처리_4 이미지">
+                    </div>
+                    <figcaption>
+                        <h3>학부연구원 활동</h3>
+                        <a href="https://github.com/BaxDailyGit/Nuclear-Medicine_macro" target="_blank" class="github-btn">GitHub</a>
+                        <h4>[소개]</h4>
+                        <p>핵의학과 학부연구원에 맡겨진 반복적인 작업을 자동/반자동화하여 효율성과 정확도를 높인 매크로</p>
+                        <h4>[기간 / 인원]</h4>
+                        <p>21년 9월 1일 ~ 22년 12월 31일 (1년 5개월)<br>
+                            본인 포함 1명</p>
+                        <h4>[매크로 목록]</h4>
+                        <ul>
+                            <li>dcm파일 다운로더</li>
+                            <li>exported환자정보arrange</li>
+                            <li>Image Quality Evaluation 영상품질비교지표</li>
+                            <li>thigh-femur 측정(반자동화)</li>
+                            <li>판독문 추출</li>
+                            <li>L3-upper thigh 근육량 측정(반자동화)</li>
+                        </ul>
+                        <h4>[기술스택]</h4>
+                        <p>Python</p>
+                        <p>AutoHotkey</p>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
     </dialog>
 

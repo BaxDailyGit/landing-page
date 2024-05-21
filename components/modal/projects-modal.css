@@ -31,8 +31,9 @@
 
 #projectModal figure img {
     width: 800px;
-    height: 800px;
+    height: auto;
     margin-right: 50px;
+    margin-bottom: 20px;
     /*margin-top: 50px;*/
     border-radius: 20px;
 
@@ -107,4 +108,17 @@
 
 #projectModal::-webkit-scrollbar {
     display: none;
+}
+
+
+.project-details-img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-details-img-div img {
+    width: 800px;
+    height: auto;
 }
