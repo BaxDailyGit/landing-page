@@ -87,6 +87,7 @@
     border: 2px solid #fff;
 }
 
+
 /* 이미지 호버 효과 */
 #projects .list-projects img:hover {
     opacity: 0.7;
@@ -112,7 +113,7 @@
 /* 이미지와 'move-btn' 호버 효과 */
 #projects .project-item:hover .move-btn,
 #projects .project-item:hover p {
-    opacity: 0.7;
+    opacity: 0.9;
     transition: opacity 0.5s;
 }
 
@@ -148,3 +149,4 @@
     border: 1px solid #ddd;
     margin: 80px 0 68px 0;
 }
+
