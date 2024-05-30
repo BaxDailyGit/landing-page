@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var downloadButtons = document.querySelectorAll('.downloadButton');
 
     // 이동할 링크 정의
-    var targetLink = "https://seungjinbaek.notion.site/seungjinbaek/1b072c03b8ff44dc825d082f4fdb0e61";
+    var targetLink = "https://baxdailygit.github.io/resume/";
 
     // 버튼 클릭 시 새 창에서 링크 열기
     function handleButtonClick() {

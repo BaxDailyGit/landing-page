@@ -1,0 +1,26 @@
+/*!* mobile.css *!*/
+/*!* 모바일 환경 *!*/
+/*@media (max-width: 480px) {*/
+/*    !* 모바일 환경에 적용될 CSS 코드 *!*/
+/*    !* 예시: 내비게이션 바 스타일 변경 *!*/
+/*    nav {*/
+/*        margin: 0 10px;*/
+/*    }*/
+
+/*    !* 예시: 프로젝트 섹션 스타일 변경 *!*/
+/*    #projects {*/
+/*        margin: 120px 10px 0 10px;*/
+/*    }*/
+
+/*    #projects .list-projects {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    #projects .project-item p {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    #projects .move-btn {*/
+/*        font-size: 18px;*/
+/*    }*/
+/*}*/
