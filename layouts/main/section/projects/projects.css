@@ -16,6 +16,9 @@
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 15px;
+    white-space: nowrap; /* 자동 줄바꿈 방지 */
+    overflow: hidden; /* 넘치는 텍스트 숨김 */
+    text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
 }
 
 /* 'projects' 섹션 본문 스타일 */
@@ -23,7 +26,11 @@
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 30px;
+    white-space: nowrap; /* 자동 줄바꿈 방지 */
+    overflow: hidden; /* 넘치는 텍스트 숨김 */
+    text-overflow: ellipsis; /* 넘치는 텍스트에 '...' 표시 */
 }
+
 
 /* 강조 텍스트 스타일 */
 #projects p .highlight {
