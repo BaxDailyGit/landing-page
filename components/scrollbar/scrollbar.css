@@ -3,7 +3,7 @@
 /* 스크롤바 전체에 적용되는 스타일 */
 ::-webkit-scrollbar {
     width: 10px;
-    /*height: 10px;*/
+    height: 10px;
 }
 
 /* 스크롤바의 track에 적용되는 스타일 (스크롤바 배경) */
