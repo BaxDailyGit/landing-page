@@ -19,6 +19,10 @@ body {
     line-height: var(--line-height);
 }
 
+main {
+    background: white;
+}
+
 
 
 /* 이미지의 공통 스타일 */
