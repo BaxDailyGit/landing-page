@@ -25,6 +25,7 @@
     line-height: 45px;
     font-weight: 300;
     margin-bottom: 25px;
+    white-space: nowrap;
 }
 
 /* 강조 텍스트 스타일 */
@@ -38,6 +39,7 @@
 #about p {
     font-size: 21px;
     line-height: 33px;
+    white-space: nowrap;
 }
 
 /* 강조 텍스트 색상 지정 */
