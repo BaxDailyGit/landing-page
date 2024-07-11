@@ -36,19 +36,18 @@
 }
 
 .welcome-text {
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
 }
-
 
 /* 일부 요소 초기 투명도 설정 */
 #welcome h2,
 #welcome p,
 #welcome .downloadButton,
 #welcome .sprout,
-#welcome .man{
+#welcome .man {
     opacity: 0;
 }
 
@@ -56,11 +55,13 @@ display: flex;
 #welcome h2 {
     animation: fadeInUp 1s ease-in-out forwards;
     transform: translateY(0);
+    white-space: nowrap;
 }
 /* 'p' 요소 스타일 및 fadeInUp 애니메이션 적용 및 지연 설정 */
 #welcome p {
     animation: fadeInUp 0.8s ease-in-out forwards;
     animation-delay: 2s;
+    white-space: nowrap;
 }
 /* 'downloadButton' 스타일 및 fadeInUp 애니메이션 적용 및 지연 설정 */
 #welcome .downloadButton {
@@ -69,9 +70,8 @@ display: flex;
 }
 /* 'sprout'와 'man' 요소 스타일 및 slideIn 애니메이션 적용 및 지연 설정 */
 .sprout,
-.man
-{
-    animation: slideIn  1s ease-in-out forwards;
+.man {
+    animation: slideIn 1s ease-in-out forwards;
     animation-delay: 1s;
 }
 
@@ -110,17 +110,12 @@ display: flex;
     animation-delay: 3.8s;
 }
 
-
-
-
-
 /* 'p' 요소 마지막에 추가 마진 설정 */
 #welcome p {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 100px;
 }
-
 
 /* 'sprout-man' 클래스 스타일 - 가로로 나열되는 요소들 */
 #welcome .sprout-man {
